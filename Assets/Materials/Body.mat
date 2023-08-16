@@ -8,8 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Body
-  m_Shader: {fileID: 4800000, guid: 6662875cce52a8046918f0b566dd3bc5, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
+  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_SKIN _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+    _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,7 +20,6 @@ Material:
     OriginalKeywords: POI_SUBSURFACESCATTERING VIGNETTE_MASKED _LIGHTINGMODE_SKIN
       _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
-    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -2125,7 +2125,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2188,7 +2188,7 @@ Material:
     - _StylizedSpecularIgnoreNormal: 0
     - _StylizedSpecularIgnoreShadow: 0
     - _StylizedSpecularStrength: 1
-    - _SubsurfaceScattering: 1
+    - _SubsurfaceScattering: 0
     - _TextEnabled: 0
     - _TextFPSColorThemeIndex: 0
     - _TextFPSEmissionStrength: 0
@@ -2544,7 +2544,7 @@ Material:
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
-    - m_start_DecalSection: 0
+    - m_start_DecalSection: 1
     - m_start_DepthBulge: 0
     - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
@@ -2583,7 +2583,7 @@ Material:
     - m_start_GlobalThemes: 0
     - m_start_Iridescence: 0
     - m_start_IridescenceAudioLink: 0
-    - m_start_MainHueShift: 0
+    - m_start_MainHueShift: 1
     - m_start_MainHueShiftGlobalMask: 0
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
@@ -2646,7 +2646,7 @@ Material:
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
     - m_start_stylizedSpec: 0
-    - m_start_subsurfaceScattering: 1
+    - m_start_subsurfaceScattering: 0
     - m_start_udimdiscardOptions: 0
     - m_start_uvDistortion: 0
     - m_start_uvLocalWorld: 0
