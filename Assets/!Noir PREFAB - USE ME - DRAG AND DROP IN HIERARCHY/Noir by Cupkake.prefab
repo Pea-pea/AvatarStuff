@@ -961,6 +961,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -1010,6 +1019,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -1073,7 +1085,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -1082,7 +1101,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -1672,6 +1706,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -1721,6 +1764,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -1800,7 +1846,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -1809,7 +1862,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -2033,6 +2101,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -2082,6 +2159,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -2125,7 +2205,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -2134,7 +2221,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -2548,6 +2650,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -2597,6 +2708,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -2660,7 +2774,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -2669,7 +2790,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -2960,6 +3096,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -3009,6 +3154,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -3072,7 +3220,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -3081,7 +3236,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -3952,6 +4122,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -4109,6 +4288,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -4170,7 +4352,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -4179,7 +4368,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -4228,6 +4432,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -4277,6 +4490,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -4356,7 +4572,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -4365,7 +4588,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -5065,6 +5303,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -5114,6 +5361,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.025
   radiusCurve:
     serializedVersion: 2
@@ -5175,7 +5425,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -5184,7 +5441,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -6136,6 +6408,7 @@ MonoBehaviour:
   unityVersion: 2019.4.31f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  networkIDs: []
   customExpressions: 1
   expressionsMenu: {fileID: 11400000, guid: f92b3cab55031634ba97494df229026e, type: 2}
   expressionParameters: {fileID: 11400000, guid: e6d14b777133faf4791f1b3c13148389,
@@ -6659,6 +6932,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -6708,6 +6990,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.04
   radiusCurve:
     serializedVersion: 2
@@ -6769,7 +7054,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -6778,7 +7070,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -7079,6 +7386,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -7128,6 +7444,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.025
   radiusCurve:
     serializedVersion: 2
@@ -7189,7 +7508,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -7198,7 +7524,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -7247,6 +7588,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -7296,6 +7646,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -7375,7 +7728,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -7384,7 +7744,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -7433,6 +7808,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -7482,6 +7866,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -7545,7 +7932,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -7554,7 +7948,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -7603,6 +8012,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -7652,6 +8070,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -7715,7 +8136,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -7724,7 +8152,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -8335,6 +8778,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -8384,6 +8836,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -8463,7 +8918,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -8472,7 +8934,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -8574,6 +9051,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -8623,6 +9109,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.04
   radiusCurve:
     serializedVersion: 2
@@ -8684,7 +9173,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -8693,7 +9189,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -8803,6 +9314,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -8852,6 +9372,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -8915,7 +9438,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -8924,7 +9454,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -9025,6 +9570,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -9074,6 +9628,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -9153,7 +9710,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -9162,7 +9726,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -9461,6 +10040,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -9510,6 +10098,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -9573,7 +10164,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -9582,7 +10180,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -9662,6 +10275,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -9711,6 +10333,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -9790,7 +10415,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -9799,7 +10431,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -9971,6 +10618,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms:
@@ -10129,6 +10785,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -10190,7 +10849,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -10199,7 +10865,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -10729,6 +11410,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -10931,6 +11621,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 0
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.1
   radiusCurve:
     serializedVersion: 2
@@ -11010,7 +11703,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -11019,7 +11719,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -11068,6 +11783,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -11117,6 +11841,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.03
   radiusCurve:
     serializedVersion: 2
@@ -11196,7 +11923,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -11205,7 +11939,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -11961,6 +12710,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -12010,6 +12768,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -12073,7 +12834,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -12082,7 +12850,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -12630,6 +13413,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -12679,6 +13471,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.015
   radiusCurve:
     serializedVersion: 2
@@ -12742,7 +13537,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 0
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -12751,7 +13553,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
@@ -12862,6 +13679,15 @@ MonoBehaviour:
   m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -12947,6 +13773,9 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
   radius: 0.01
   radiusCurve:
     serializedVersion: 2
@@ -13008,7 +13837,14 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
   grabMovement: 0.5
   maxStretch: 0
   maxStretchCurve:
@@ -13017,7 +13853,22 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   isAnimated: 1
+  resetWhenDisabled: 0
   parameter: 
   showGizmos: 1
   boneOpacity: 0.5
