@@ -807,7 +807,9 @@ Material:
     - _ClothMetallicSmoothnessMapUV: 0
     - _ClothReflectance: 0.5
     - _ClothSmoothness: 0.5
+    - _ColorEnd: 1
     - _ColorMask: 15
+    - _ColorStart: 0.05
     - _ColorThemeIndex: 0
     - _ContinuousDissolve: 0
     - _CubeMapAdd: 0
@@ -1203,6 +1205,7 @@ Material:
     - _EnableTouchGlow: 0
     - _EnableUDIMDiscardOptions: 0
     - _EnableVolumeColor: 0
+    - _Exponent: 1
     - _FFBFStencilHelp0: 0
     - _FFBFStencilHelp1: 0
     - _FXProximityColor: 0
@@ -1554,7 +1557,7 @@ Material:
     - _HighColorThemeIndex: 0
     - _HighColor_Power: 0.2
     - _HighColor_TexUV: 0
-    - _Hue: 0
+    - _Hue: 0.015
     - _IgnoreCastedShadows: 0
     - _IgnoreFog: 0
     - _Inverse_Clipping: 0
@@ -2113,7 +2116,7 @@ Material:
     - _SSSThicknessMapChannel: 0
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: 0
-    - _Saturation: 0
+    - _Saturation: 0.75
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ScrollingEmission2: 0
@@ -2269,7 +2272,7 @@ Material:
     - _Use_1stShadeMapAlpha_As_ShadowMask: 0
     - _Use_2ndShadeMapAlpha_As_ShadowMask: 0
     - _Use_BaseAs1st: 0
-    - _Value: 1
+    - _Value: 0.05
     - _VertexAudioLinkEnabled: 0
     - _VertexBarrelAlpha: 0
     - _VertexBarrelHeight: 0
