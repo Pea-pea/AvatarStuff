@@ -85,7 +85,7 @@
                 //_ShiftedValue += 2 * (1 - saturate(dot(v.normal, normalize(UnityWorldSpaceViewDir(o.vertex)))));
 
                 //gradient stuff:
-                float t = InvLerp(_ShiftedColorStart, _ColorEnd, pow(v.uv.x, _Exponent));
+                float t = pow(InvLerp(_ShiftedColorStart, _ColorEnd, v.uv.x), _Exponent);
                 hsv.xyz = HSVtoRGB(_ShiftedHue, _Saturation, _ShiftedValue);
                 o.color = lerp(half4(0,0,0,0), hsv, t);
                 return o;
@@ -93,7 +93,7 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
-                i.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 512, 0 ) ).rrr ) / 5;
+                i.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 256 , 0 ) ).rrr ) / 15;
                 return i.color;
             }
             ENDCG
