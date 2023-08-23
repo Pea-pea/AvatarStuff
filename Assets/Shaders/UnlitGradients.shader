@@ -6,8 +6,7 @@
         _Hue("Hue: ", range(0,1)) = 0.5
         _Saturation("Saturation: ", range(0,1)) = 1
         _Value("Value: ", float) = 1
-        _RootColor("Root Color", Color) = (0,0,0,0)
-   
+           
         [Header(Gradient Controls)]
         _ColorStart("ColorStart: ", Range(0,1)) = 0.5
         _ColorEnd("ColorEnd: ", float) = 0.5
@@ -39,7 +38,6 @@
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
-                half3 normal : NORMAL;
             };
 
             struct v2f //vert to frag
@@ -47,7 +45,6 @@
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
                 float4 color : TEXCOORD1;
-                half3 normal : TEXCOORD2;
                 UNITY_VERTEX_OUTPUT_STEREO
             };
 
@@ -57,7 +54,6 @@
             float _Hue;
             float _Saturation;
             float _Value;
-            half4 _RootColor;
 
             float _ShiftedColorStart;
             float _ShiftedHue;
@@ -109,10 +105,11 @@
                 //gradient stuff:
                 float t = saturate(InvLerp(_ShiftedColorStart, _ColorEnd, v.uv.x));
                 hsv.xyz = HSVtoRGB(_ShiftedHue, _Saturation, _ShiftedValue);
-                o.color = ExponentialInterpolate(_RootColor, hsv, t, _Exponent);
+                o.color = ExponentialInterpolate(half4(0,0,0,0), hsv, t, _Exponent);
                 
                 //lines with waveform
                 o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 512 , _LinesBand ) ).rrr * 0.2);
+
                 return o;
             }
 
