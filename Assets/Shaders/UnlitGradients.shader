@@ -1,15 +1,25 @@
 ﻿Shader "Custom/UnlitGradients"
 {
     Properties
-    {
+    {   
+        [Header(Colors)]
         _Hue("Hue: ", range(0,1)) = 0.5
         _Saturation("Saturation: ", range(0,1)) = 1
         _Value("Value: ", float) = 1
+        _RootColor("Root Color", Color) = (0,0,0,0)
+   
+        [Header(Gradient Controls)]
         _ColorStart("ColorStart: ", Range(0,1)) = 0.5
         _ColorEnd("ColorEnd: ", float) = 0.5
         _Exponent("Exponent: ", float) = 1
 
-        _AudioLink ("AudioLink Texture", 2D) = "black" {}
+        [Header(Audiolink Bands)]
+        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ColorStartBand("ColorStartBand: ", int) = 0
+        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _HueBand("HueBand: ", int) = 1
+        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ValueBand("ValueBand: ", int) = 2
+        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _LinesBand("LinesBand: ", int) = 3
+
+        [Space(20)] _AudioLink ("AudioLink Texture", 2D) = "black" {}
     }
     SubShader
     {
@@ -47,17 +57,33 @@
             float _Hue;
             float _Saturation;
             float _Value;
+            half4 _RootColor;
+
             float _ShiftedColorStart;
             float _ShiftedHue;
             float _ShiftedValue;
 
+            int _ColorStartBand;
+            int _HueBand;
+            int _ValueBand;
+            int _LinesBand;
+
             half4 hsv;
 
-            float InvLerp(float a, float b, float value)
+            //Inverse Lerp function from: https://forum.unity.com/threads/lerp-from-1-to-0.380788/
+            float InvLerp(float a, float b, float t)
             {
-                return (value - a) / (b - a);
+                return (t - a) / (b - a);
             }
 
+            //Exponential Interpolation function from: https://www.shadertoy.com/view/4t2SDh
+            float4 ExponentialInterpolate(float4 a, float4 b, float t, float exponent)
+            {
+                //equation which interpolates between two colors exponentially
+                return (1 - pow(1 - t, exponent)) * a + pow(t, exponent) * b;
+            }
+
+            //HSV to RGB conversion from: https://stackoverflow.com/questions/15095909/from-rgb-to-hsv-in-opengl-glsl
             float3 HSVtoRGB(float _Hue, float _Saturation, float _Value)
             {
                 float4 K = float4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
@@ -72,28 +98,26 @@
                 o.uv = v.uv;
 
                 //shift _Hue with audiolink 4 band over time
-                _ShiftedHue = _Hue + ((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, 1 ) ).r % 1000000) / 1000000.0); 
-                //_ShiftedHue = saturate(_ShiftedHue);
+                _ShiftedHue = _Hue + ((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ).r % 1000000) / 1000000.0); 
                 
                 //shift _ColorStart with audiolink 4 band
-                _ShiftedColorStart = saturate(_ColorStart + (AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, 0 ) ).rrrr * .2));
+                _ShiftedColorStart = saturate(_ColorStart + (AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ColorStartBand ) ).rrrr * .2));
                 
                 //shift _Value with audiolink 4 band
-                _ShiftedValue = saturate(_Value + AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, 2 ) ).r);
-
-                //make _Value bigger at the edges of each hair strand using normals and camera direction
-                //_ShiftedValue += 2 * (1 - saturate(dot(v.normal, normalize(UnityWorldSpaceViewDir(o.vertex)))));
+                _ShiftedValue = _Value + saturate(AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ValueBand ) ).r);
 
                 //gradient stuff:
-                float t = pow(InvLerp(_ShiftedColorStart, _ColorEnd, v.uv.x), _Exponent);
+                float t = saturate(InvLerp(_ShiftedColorStart, _ColorEnd, v.uv.x));
                 hsv.xyz = HSVtoRGB(_ShiftedHue, _Saturation, _ShiftedValue);
-                o.color = lerp(half4(0,0,0,0), hsv, t);
+                o.color = ExponentialInterpolate(_RootColor, hsv, t, _Exponent);
+                
+                //lines with waveform
+                o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 512 , _LinesBand ) ).rrr * 0.2);
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                i.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 256 , 0 ) ).rrr ) / 15;
                 return i.color;
             }
             ENDCG
