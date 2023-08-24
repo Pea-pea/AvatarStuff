@@ -2613,13 +2613,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998656336306346963}
-  m_LocalRotation: {x: -6.220398e-22, y: 4.2351647e-22, z: -8.4703295e-22, w: 1}
-  m_LocalPosition: {x: 6.7735734e-15, y: 0.24999997, z: 0.000000040331344}
+  m_LocalRotation: {x: 0.26664966, y: 0, z: 0, w: 0.9637935}
+  m_LocalPosition: {x: 0, y: 0.24999997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5588966876688472258}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.93, y: 0, z: 0}
 --- !u!1 &1428152439976575280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,14 +2705,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2640473870600820267}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.9848078, y: 0, z: 0, w: 0.17364825}
   m_LocalPosition: {x: -0.000000023841858, y: 0.09500001, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9112855548187715968}
   m_Father: {fileID: 2949732619071107582}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -160, y: 0, z: 0}
 --- !u!1 &1697347902456091081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,7 +2779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  ViewPosition: {x: 0, y: 1.66, z: 0.14}
+  ViewPosition: {x: 0, y: 1.65, z: 0.14}
   Animations: 0
   ScaleIPD: 1
   lipSync: 3
@@ -2931,113 +2931,114 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 8506583263293277567}
+    radius: 0.1254
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 2.0499148e-14, y: 0.08999993, z: -0.00000005960466}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
-    state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
+    state: 1
+    transform: {fileID: 7740709952194074821}
+    radius: 0.18
+    height: 0.7
+    position: {x: 0, y: 0.04, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footR:
     isMirrored: 1
-    state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    state: 1
+    transform: {fileID: 7013088525864497801}
+    radius: 0.05
+    height: 0.22
+    position: {x: 0.00000030919907, y: -0.09999992, z: 0.00000000993467}
+    rotation: {x: 0.0000000435425, y: 0.000000018013854, z: 0.000000043542457, w: -1}
   collider_footL:
     isMirrored: 1
-    state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
+    state: 1
+    transform: {fileID: 1539308896074814391}
+    radius: 0.05
+    height: 0.22
+    position: {x: 0, y: -0.1, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
-    state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    state: 1
+    transform: {fileID: 6898791003189421281}
+    radius: 0.05
+    height: 0.12
+    position: {x: 0.00000020978048, y: 0.06999997, z: -0.00000005899794}
+    rotation: {x: -0.00000002605516, y: 0.000000014467475, z: -0.000000046350866,
+      w: 1.0000001}
   collider_handL:
     isMirrored: 1
-    state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
+    state: 1
+    transform: {fileID: 7470528057308277426}
+    radius: 0.05
+    height: 0.12
+    position: {x: 0, y: 0.07, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 2970689476024766267}
+    radius: 0.011020773
+    height: 0.055103865
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 1133865499471698010}
+    radius: 0.0117617715
+    height: 0.05880886
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 3259338269924323265}
+    radius: 0.012008614
+    height: 0.06004307
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 5506354985543840484}
+    radius: 0.009544234
+    height: 0.047721166
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 3979649438376703516}
+    radius: 0.01102077
+    height: 0.055103853
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerMiddleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 3710385405952011113}
+    radius: 0.011761741
+    height: 0.058808703
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerRingR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 6526911714432571652}
+    radius: 0.012008641
+    height: 0.060043205
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerLittleR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
+    transform: {fileID: 7597834682977881974}
+    radius: 0.009544207
+    height: 0.047721032
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!1 &1760771892073734531
@@ -3407,14 +3408,32 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravity: 0.5
+  gravity: 0.1
   gravityCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravityFalloff: 0.25
+  gravityFalloff: 0
   gravityFalloffCurve:
     serializedVersion: 2
     m_Curve: []
@@ -3422,7 +3441,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   immobileType: 1
-  immobile: 0
+  immobile: 0.3
   immobileCurve:
     serializedVersion: 2
     m_Curve: []
@@ -3433,19 +3452,16 @@ MonoBehaviour:
   collisionFilter:
     allowSelf: 0
     allowOthers: 0
-  radius: 0
+  radius: 0.1
   radiusCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  colliders:
-  - {fileID: 2980095924877994713}
-  - {fileID: 1762089740663896996}
-  - {fileID: 998656336306346964}
+  colliders: []
   limitType: 1
-  maxAngleX: 55
+  maxAngleX: 40
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -3459,7 +3475,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  limitRotation: {x: -10, y: 0, z: 0}
+  limitRotation: {x: 0, y: 0, z: 0}
   limitRotationXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -3495,7 +3511,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxSquish: 0.2
+  maxSquish: 0.1
   maxSquishCurve:
     serializedVersion: 2
     m_Curve: []
@@ -3511,7 +3527,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   isAnimated: 0
   resetWhenDisabled: 0
-  parameter: 
+  parameter: Tail
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
@@ -4371,7 +4387,7 @@ Animator:
   m_GameObject: {fileID: 1711741660493191177}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 39588ca01a98cd746864e76a3641d673, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 573a1373059632b4d820876efe2d277f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -4402,14 +4418,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762089740663896995}
-  m_LocalRotation: {x: -6.220398e-22, y: 4.2351647e-22, z: -8.4703295e-22, w: 1}
-  m_LocalPosition: {x: 1.64844e-14, y: 0.25000003, z: 0.000000021456877}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 0.25000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1350587071567071086}
   m_Father: {fileID: 9112855548187715968}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!1 &5599864269280114966
 GameObject:
   m_ObjectHideFlags: 0
@@ -5701,8 +5717,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2980095924877994712}
-  m_LocalRotation: {x: -6.220398e-22, y: 4.2351647e-22, z: -8.4703295e-22, w: 1}
-  m_LocalPosition: {x: -2.226477e-15, y: 0.25, z: 0.0000000025824072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5588966876688472258}
