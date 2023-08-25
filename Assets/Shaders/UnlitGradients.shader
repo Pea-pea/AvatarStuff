@@ -19,6 +19,9 @@
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _LinesBand("LinesBand: ", int) = 3
 
         [Space(20)] _AudioLink ("AudioLink Texture", 2D) = "black" {}
+
+        [Curve]_CurveTest ("CurveTest", 2D) = "white" { }
+
     }
     SubShader
     {
