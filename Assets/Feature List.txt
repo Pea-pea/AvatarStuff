@@ -1,0 +1,20 @@
+todo list
+
+clothes:
+hoodie, can have cool shaders. Probably black with some cool art.
+some kind of pants
+pleated skirt. Maybe it can turn into a denim one. Black
+thigh highs/hand warmers, includes fishnet versions. Could do with uv tiling/discarding
+crop top, black
+
+jewlry:
+chains, maybe on clothes?
+audiolink bands on legs, arms, and neck
+
+toggles:
+some for turning clothes on/off
+ways to adjust shaders?
+boob size adjuster (includes clothes in blendshape)
+hair length adjuster, affects mostly back hair
+defult shader hue adjust
+audiolink toggle?
