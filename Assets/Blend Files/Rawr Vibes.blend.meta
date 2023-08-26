@@ -30,6 +30,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Hair Curve
+    second: {fileID: 2100000, guid: b660a976592b8c84f9aa9a7888c1e912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Hair Exponent
     second: {fileID: 2100000, guid: b660a976592b8c84f9aa9a7888c1e912, type: 2}
   - first:
@@ -56,10 +61,10 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
       does not match position in animation file:\n\t'Upper Leg L' : position error
-      = 16.981329 mm\n\t'Lower Leg L' : position error = 32.797215 mm\n\t'Foot L'
-      : position error = 22.028112 mm\n\t'Upper Leg R' : position error = 16.981329
-      mm\n\t'Lower Leg R' : position error = 32.796967 mm\n\t'Foot R' : position
-      error = 22.028238 mm\n"
+      = 16.731222 mm\n\t'Lower Leg L' : position error = 32.314163 mm\n\t'Foot L'
+      : position error = 21.703674 mm\n\t'Upper Leg R' : position error = 16.731222
+      mm\n\t'Lower Leg R' : position error = 32.313915 mm\n\t'Foot R' : position
+      error = 21.703794 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
