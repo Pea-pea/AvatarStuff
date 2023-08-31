@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Hair
   m_Shader: {fileID: 4800000, guid: ac6405509b0c9dd409a672f7a97d832a, type: 3}
-  m_ShaderKeywords: COLOR_GRADING_HDR POI_AL_DECAL POI_AUDIOLINK VIGNETTE_MASKED
-    _EMISSION _LIGHTINGMODE_WRAPPED _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+  m_ShaderKeywords: COLOR_GRADING_HDR POI_AUDIOLINK VIGNETTE_MASKED _EMISSION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -96,6 +95,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubeMapMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CurveTest:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -823,7 +826,7 @@ Material:
     - _ClothSmoothness: 0.5
     - _ColorEnd: 1
     - _ColorMask: 15
-    - _ColorStart: 0.3
+    - _ColorStart: 0.2
     - _ColorStartBand: 0
     - _ColorThemeIndex: 0
     - _ContinuousDissolve: 0
@@ -1221,7 +1224,7 @@ Material:
     - _EnableTouchGlow: 0
     - _EnableUDIMDiscardOptions: 0
     - _EnableVolumeColor: 0
-    - _Exponent: 3
+    - _Exponent: 2.75
     - _FFBFStencilHelp0: 0
     - _FFBFStencilHelp1: 0
     - _FXProximityColor: 0
@@ -1574,7 +1577,7 @@ Material:
     - _HighColorThemeIndex: 0
     - _HighColor_Power: 0.2
     - _HighColor_TexUV: 0
-    - _Hue: 0.78
+    - _Hue: 0.6
     - _HueAudioStrength: 0.2
     - _HueBand: 1
     - _HueShift: 0.061
