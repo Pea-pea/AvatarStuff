@@ -1,18 +1,34 @@
 clothes:
-hoodie, can have cool shaders. Probably black with some cool art.
-some kind of pants
-pleated skirt. Maybe it can turn into a denim one. Black
-thigh highs/hand warmers, includes fishnet versions. Could do with uv tiling/discarding
-crop top, black
+Hoodie, can have cool shaders. Probably black with some cool art. Hood that can be on and off, with pullable hoodie strings. would be cool if hood could be moved via togggle/contacts.
+Some kind of pants
+Pleated skirt. Maybe it can turn into a denim one. Black
+Thigh highs/hand warmers, includes fishnet versions. Could do with uv tiling/discarding
+Crop top, black
 
 jewlery:
 chains, maybe on clothes?
 dangly chains :3
-audiolink bands on legs, arms, and neck
+audiolink bands on legs, arms, and neck.
 
 toggles:
-some for turning clothes on/off
+some for turning clothes on/off. (DONE)
 boob size adjuster (includes clothes in blendshape). Could be done by scaling bones and/or a blendshape.
 hair length adjuster, affects mostly back hair. Could be done by scaling bones?
 defult shader hue adjust
+Hoodie hue shift
+Skirt plad texture with hue shift?
 audiolink toggle?
+
+other:
+finger trails
+contacts on avatar to toggle things
+arms be shorter
+
+
+Contact based toggles:
+These have some kind of dissolve animation that follows hand and continues when released
+Pull hoddie and crop top up from bottom to remove. To put back on, can grab invisible contact and pull back down
+Hood can be pulled back/up. Doing this with movement outwards resets apreture size
+Thigh highs/fishnets can be pulled down to be removed. Pull up to replace.
+
+Glowy bands and some chains can be grabbed and pulled off. Grabbing the contact again makes them reappear.
