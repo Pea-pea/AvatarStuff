@@ -111,7 +111,7 @@
                 o.color = ExponentialInterpolate(half4(0,0,0,0), hsv, t, _Exponent);
                 
                 //lines with waveform
-                o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 512 , _LinesBand ) ).rrr * 0.2);
+                o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 1024 , _LinesBand ) ).rrr * 0.2);
 
                 return o;
             }
