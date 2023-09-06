@@ -12,6 +12,10 @@
         _ColorEnd("ColorEnd: ", float) = 0.5
         _Exponent("Exponent: ", float) = 1
 
+        [Header(Lines)]
+        [ToggleUI] _LinesEnabled ("Lines Enabled: ", int) = 1
+        _LinesGain ("Lines Gain: ", float) = 1
+
         [Header(Audiolink Bands)]
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ColorStartBand("ColorStartBand: ", int) = 0
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _HueBand("HueBand: ", int) = 1
@@ -19,9 +23,6 @@
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _LinesBand("LinesBand: ", int) = 3
 
         [Space(20)] _AudioLink ("AudioLink Texture", 2D) = "black" {}
-
-        [Curve]_CurveTest ("CurveTest", 2D) = "white" { }
-
     }
     SubShader
     {
@@ -67,6 +68,9 @@
             int _ValueBand;
             int _LinesBand;
 
+            float _LinesGain;
+            int _LinesEnabled;
+
             half4 hsv;
 
             //Inverse Lerp function from: https://forum.unity.com/threads/lerp-from-1-to-0.380788/
@@ -100,7 +104,7 @@
                 _ShiftedHue = _Hue + ((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ).r % 1000000) / 1000000.0); 
                 
                 //shift _ColorStart with audiolink 4 band
-                _ShiftedColorStart = saturate(_ColorStart + (AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ColorStartBand ) ).rrrr * .2));
+                _ShiftedColorStart = saturate(_ColorStart + (AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ColorStartBand ) ) * .2));
                 
                 //shift _Value with audiolink 4 band
                 _ShiftedValue = _Value + saturate(AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ValueBand ) ).r);
@@ -111,13 +115,18 @@
                 o.color = ExponentialInterpolate(half4(0,0,0,0), hsv, t, _Exponent);
                 
                 //lines with waveform
-                o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 1024 , _LinesBand ) ).rrr * 0.2);
+                //o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 512 , _LinesBand ) ).rrr * 0.2);
 
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
+                if (_LinesEnabled)
+                {
+                i.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 1024., _LinesBand ) ).r * _LinesGain);
+                }
+
                 return i.color;
             }
             ENDCG
