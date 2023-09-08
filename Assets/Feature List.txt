@@ -12,7 +12,7 @@ audiolink bands on legs, arms, and neck.
 
 toggles:
 some for turning clothes on/off. (DONE)
-boob size adjuster (includes clothes in blendshape). Could be done by scaling bones and/or a blendshape.
+boob size adjuster. Could be done by scaling bones and/or a blendshape.
 hair length adjuster, affects mostly back hair. Could be done by scaling bones?
 defult shader hue adjust
 Hoodie hue shift
@@ -20,10 +20,9 @@ Skirt plad texture with hue shift?
 audiolink toggle?
 
 other:
-finger trails
-contacts on avatar to toggle things
-arms be shorter
-
+Finger trails. Could do in geometry shader to trick VRC SDK into giving me good rating. More than 2 trail renderers is poor, over 8 is very poor. This is very stupid.
+Bangs swoop left/right, flow into longer strands that start just in front of the ears and ends at the chin. Back hair goes down a very little bit from there. All of the hair has layers at the end, and it feels kind of like its poofing out. fluffy, or bouncy.
+Hair, Tail, and Nails have custom shaders, others use poiyomi.
 
 Contact based toggles:
 These have some kind of dissolve animation that follows hand and continues when released
