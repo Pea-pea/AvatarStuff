@@ -8,20 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Stockings
-  m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: POI_UDIMDISCARD VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
-    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+  m_Shader: {fileID: 4800000, guid: 27f63048949018e4b9131c47b07bc678, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
+    AllLockedGUIDS: 9438da8eafc3d8d46b94ee8f580b553b
     OriginalKeywords: POI_UDIMDISCARD VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
       _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
     OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
     RenderType: Transparent
-    _ClippingMaskAnimated: 1
-    _MainTexAnimated: 1
     _UDIMDiscardRow2_0Animated: 1
     _UDIMDiscardRow2_1Animated: 1
     _UDIMDiscardRow2_2Animated: 1
@@ -307,8 +305,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fc0fefeb769f2b24b95305b9430aee91, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 7d3a53960e9c2b74196d6717377ec3a9, type: 3}
+        m_Scale: {x: 16, y: 16}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
         m_Texture: {fileID: 0}
@@ -610,7 +608,7 @@ Material:
     - _AlphaGlobalMaskBlendType: 2
     - _AlphaMipScale: 0.25
     - _AlphaMod: 0
-    - _AlphaPremultiply: 0
+    - _AlphaPremultiply: 1
     - _AlphaSharpenedA2C: 0
     - _AlphaTextureStochastic: 0
     - _AlphaTextureUV: 0
@@ -1563,7 +1561,7 @@ Material:
     - _HighColor_TexUV: 0
     - _IgnoreCastedShadows: 0
     - _IgnoreFog: 0
-    - _Inverse_Clipping: 1
+    - _Inverse_Clipping: 0
     - _IridescenceAddBlend: 0
     - _IridescenceAudioLinkChronoPanBand: 0
     - _IridescenceAudioLinkChronoPanSpeed: 0
@@ -2131,7 +2129,7 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
