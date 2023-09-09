@@ -301,7 +301,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 321b101af47f7e844a56efcad9ba93f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: e7413cdc3b8ac734781b5e5a515e35a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -1617,7 +1617,7 @@ Material:
     - _LightingAdditiveLimited: 0
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
-    - _LightingAdditiveType: 1
+    - _LightingAdditiveType: 3
     - _LightingCap: 1
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
@@ -1633,7 +1633,7 @@ Material:
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
-    - _LightingIgnoreAmbientColor: 1
+    - _LightingIgnoreAmbientColor: 0.528
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
@@ -2145,7 +2145,7 @@ Material:
     - _ShadowMainStrength: 0
     - _ShadowOffset: 0
     - _ShadowReceive: 0
-    - _ShadowStrength: 0.4
+    - _ShadowStrength: 0.6
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2157,7 +2157,7 @@ Material:
     - _SphericalDissolveRadius: 1.5
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _SssBumpBlur: 0.7
+    - _SssBumpBlur: 0.5
     - _SssScale: 1
     - _StencilBackCompareFunction: 8
     - _StencilBackFailOp: 0
@@ -2520,7 +2520,7 @@ Material:
     - m_end_vertexGlitching: 0
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
-    - m_lightingCategory: 0
+    - m_lightingCategory: 1
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
@@ -2591,7 +2591,7 @@ Material:
     - m_start_Matcap4: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiLightData: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiShading: 1
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2907,7 +2907,7 @@ Material:
     - _LightingAOMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingDetailShadowMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingForcedColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LightingShadowColor: {r: 0.86274517, g: 0.7607844, b: 0.7058824, a: 1}
+    - _LightingShadowColor: {r: 0.8, g: 0.6745098, b: 0.63686275, a: 1}
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
