@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ClothesMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: Stockings
+  - name: Fishnets
     icon: {fileID: 0}
     type: 103
     parameter:

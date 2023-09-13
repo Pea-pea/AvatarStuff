@@ -48,22 +48,22 @@ MonoBehaviour:
     saved: 1
     defaultValue: 1
     networkSynced: 1
-  - name: Stocking Arm Left
+  - name: Fishnet Arm Left
     valueType: 2
     saved: 1
     defaultValue: 1
     networkSynced: 1
-  - name: Stocking Arm Right
+  - name: Fishnet Arm Right
     valueType: 2
     saved: 1
     defaultValue: 1
     networkSynced: 1
-  - name: Stocking Leg Left
+  - name: Fishnet Leg Left
     valueType: 2
     saved: 1
     defaultValue: 1
     networkSynced: 1
-  - name: Stocking Leg Right
+  - name: Fishnet Leg Right
     valueType: 2
     saved: 1
     defaultValue: 1

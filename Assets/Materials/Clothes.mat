@@ -2243,10 +2243,10 @@ Material:
     - _UDIMDiscardRow0_1: 0
     - _UDIMDiscardRow0_2: 0
     - _UDIMDiscardRow0_3: 0
-    - _UDIMDiscardRow1_0: 1
+    - _UDIMDiscardRow1_0: 0
     - _UDIMDiscardRow1_1: 0
     - _UDIMDiscardRow1_2: 0
-    - _UDIMDiscardRow1_3: 1
+    - _UDIMDiscardRow1_3: 0
     - _UDIMDiscardRow2_0: 0
     - _UDIMDiscardRow2_1: 0
     - _UDIMDiscardRow2_2: 0

@@ -15,6 +15,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Clothes
+    second: {fileID: 2100000, guid: 94d5284ce8db274499e28af610e0d2f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Eyes
     second: {fileID: 2100000, guid: 3be9fa817123eed44ac1e369c2b5e711, type: 2}
   - first:
@@ -27,6 +32,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Hair Curve
     second: {fileID: 2100000, guid: b660a976592b8c84f9aa9a7888c1e912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nail
+    second: {fileID: 2100000, guid: ba7b7915d111413479f6f97d2c7aea58, type: 2}
   materials:
     materialImportMode: 1
     materialName: 1
@@ -54,7 +64,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -88,7 +98,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []

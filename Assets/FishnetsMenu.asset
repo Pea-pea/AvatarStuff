@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: StockingsMenu
+  m_Name: FishnetsMenu
   m_EditorClassIdentifier: 
   controls:
   - name: Arm Left
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: Stocking Arm Left
+      name: Fishnet Arm Left
     value: 1
     style: 0
     subMenu: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: Stocking Arm Right
+      name: Fishnet Arm Right
     value: 1
     style: 0
     subMenu: {fileID: 0}
@@ -37,7 +37,7 @@ MonoBehaviour:
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: Stocking Leg Left
+      name: Fishnet Leg Left
     value: 1
     style: 0
     subMenu: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
     icon: {fileID: 0}
     type: 102
     parameter:
-      name: Stocking Leg Right
+      name: Fishnet Leg Right
     value: 1
     style: 0
     subMenu: {fileID: 0}
