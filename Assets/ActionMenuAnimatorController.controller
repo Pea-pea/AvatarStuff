@@ -29,7 +29,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stocking Arm Left
+  m_Name: Fishnet Arm Left
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b06a065f7262d9d4bb81f3d0d9873417, type: 2}
@@ -47,7 +47,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Buffer
     m_Mirror: 0
-  m_BlendParameter: Stocking Arm Left
+  m_BlendParameter: Fishnet Arm Left
   m_BlendParameterY: Buffer
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -154,7 +154,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stocking Arm Right
+  m_Name: Fishnet Arm Right
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 6c341ae7014e3c5429ee4d8cb6177c1a, type: 2}
@@ -172,7 +172,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Buffer
     m_Mirror: 0
-  m_BlendParameter: Stocking Arm Right
+  m_BlendParameter: Fishnet Arm Right
   m_BlendParameterY: Buffer
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -185,7 +185,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stocking Leg Left
+  m_Name: Fishnet Leg Left
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 31b8830352c330d4c9878a4aa035de8c, type: 2}
@@ -203,7 +203,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Buffer
     m_Mirror: 0
-  m_BlendParameter: Stocking Leg Left
+  m_BlendParameter: Fishnet Leg Left
   m_BlendParameterY: Buffer
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -218,7 +218,10 @@ AnimatorStateMachine:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
-  m_ChildStates: []
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 1991177794084540669}
+    m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -228,7 +231,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 0}
+  m_DefaultState: {fileID: 1991177794084540669}
 --- !u!206 &-1270219034427534443
 BlendTree:
   m_ObjectHideFlags: 1
@@ -299,25 +302,25 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Stocking Arm Left
+  - m_Name: Fishnet Arm Left
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Stocking Arm Right
+  - m_Name: Fishnet Arm Right
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Stocking Leg Left
+  - m_Name: Fishnet Leg Left
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Stocking Leg Right
+  - m_Name: Fishnet Leg Right
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -447,6 +450,32 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 4
+--- !u!1102 &1991177794084540669
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trails 0-1
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0abe9fe554e096b4b9b6ba3866e3092d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!206 &2883982967540981409
 BlendTree:
   m_ObjectHideFlags: 1
@@ -456,7 +485,7 @@ BlendTree:
   m_Name: Trails
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 0abe9fe554e096b4b9b6ba3866e3092d, type: 2}
+    m_Motion: {fileID: 0}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -464,7 +493,7 @@ BlendTree:
     m_DirectBlendParameter: Buffer
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 0abe9fe554e096b4b9b6ba3866e3092d, type: 2}
+    m_Motion: {fileID: 0}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: -1
@@ -541,7 +570,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stocking Leg Right
+  m_Name: Fishnet Leg Right
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: bad3defa6c8a73d49bee1200d1a92b74, type: 2}
@@ -559,7 +588,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Buffer
     m_Mirror: 0
-  m_BlendParameter: Stocking Leg Right
+  m_BlendParameter: Fishnet Leg Right
   m_BlendParameterY: Buffer
   m_MinThreshold: 0
   m_MaxThreshold: 1
