@@ -1,0 +1,1239 @@
+fileFormatVersion: 2
+guid: 86e49728eb291ae4a95fd367cc1c43c4
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Elster_Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Collarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Palm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_EyeL
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_EyeR
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Thumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Thumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Thumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pointer1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pointer2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pointer3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Middle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Middle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Middle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Ring1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Ring2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Ring3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_LArm_Pinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPointer1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPointer2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPointer3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_RArmPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Elster_chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: elster_VRC(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_
+      parentName: elster_VRC(Clone)
+      position: {x: -0, y: 0, z: -0.007645459}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_hair
+      parentName: Elster_
+      position: {x: -1.6984038, y: 0.06210777, z: -1.4210854e-16}
+      rotation: {x: -0.4999999, y: 0.50000006, z: 0.49999985, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_satchel
+      parentName: Elster_
+      position: {x: -1.1671177, y: 0.028934754, z: -0.02794052}
+      rotation: {x: 0.8024131, y: -0.00000013777925, z: -0.596769, w: -0.000000022079611}
+      scale: {x: 0.89951, y: 0.714391, z: 0.993124}
+    - name: Elster_torso_alt
+      parentName: Elster_
+      position: {x: 0.0000000012456034, y: 0.007645459, z: -0.0000000011544321}
+      rotation: {x: -0.4999999, y: 0.50000006, z: 0.49999985, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_face_alt
+      parentName: Elster_
+      position: {x: 0.12767744, y: 0.007645435, z: -0.0000000011544352}
+      rotation: {x: 0.7071069, y: -0.00000021073421, z: -0.70710665, w: -0.00000021073429}
+      scale: {x: 1.0774, y: 1.0774, z: 1.0774}
+    - name: Elster_Hip
+      parentName: elster_VRC(Clone)
+      position: {x: 4.8885338e-14, y: 1.0939013, z: 0.03846548}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_LLeg1
+      parentName: Elster_Hip
+      position: {x: 0.023198776, y: 0.00000012636184, z: 0.098946795}
+      rotation: {x: 0.0121898, y: 0.9999257, z: 0.00006973291, w: -0.00022553542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_LLeg2
+      parentName: Elster_LLeg1
+      position: {x: -0.47281155, y: -0.0000005888939, z: 0.000000629425}
+      rotation: {x: 0.00235309, y: -0.0009081056, z: 0.051255587, w: 0.9986824}
+      scale: {x: 1.000001, y: 0.9999989, z: 0.99999994}
+    - name: Elster_LLegAnkle
+      parentName: Elster_LLeg2
+      position: {x: -0.4751659, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.0027858391, y: -0.0011998501, z: -0.5080484, w: 0.8613232}
+      scale: {x: 1.0000069, y: 0.9999932, z: 1.0000001}
+    - name: Elster_Toe_L
+      parentName: Elster_LLegAnkle
+      position: {x: -0.14308305, y: 0.010547676, z: 0.000161829}
+      rotation: {x: -0.00034011077, y: 0.00000013779072, z: -0.30070564, w: 0.95371693}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Elster_posterior_L
+      parentName: Elster_Hip
+      position: {x: 0.04022331, y: -0.077542886, z: 0.0879279}
+      rotation: {x: 2.7268017e-21, y: -3.3103062e-22, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Spine1
+      parentName: Elster_Hip
+      position: {x: -0.046933897, y: 0, z: 0}
+      rotation: {x: 4.2632568e-14, y: 1.2476466e-13, z: 0.000000005242299, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Spine2
+      parentName: Elster_Spine1
+      position: {x: -0.09191154, y: 0, z: 3.922196e-14}
+      rotation: {x: 7.8159714e-14, y: 2.1337389e-13, z: 0.000000023043249, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_chest
+      parentName: Elster_Spine2
+      position: {x: -0.11019058, y: 0.0000000023841857, z: 4.6611603e-14}
+      rotation: {x: 1.4210877e-14, y: 9.134705e-14, z: 0.0000000052422067, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_breast_root
+      parentName: Elster_chest
+      position: {x: -0.11027649, y: -0.0000000023841857, z: 0}
+      rotation: {x: 1.903135e-21, y: 1.2210395e-15, z: -2.3238029e-36, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_breast_L
+      parentName: Elster_breast_root
+      position: {x: 0.009023132, y: 0.06509971, z: 0.07318372}
+      rotation: {x: 0.14569944, y: 0.1794976, z: -0.8110444, w: 0.5373633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_breast_R
+      parentName: Elster_breast_root
+      position: {x: 0.009023132, y: 0.06509971, z: -0.07318372}
+      rotation: {x: -0.14569949, y: -0.17949751, z: -0.8110445, w: 0.53736323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_LArm_Collarbone
+      parentName: Elster_chest
+      position: {x: -0.12205337, y: 0.0068066167, z: 0.05615739}
+      rotation: {x: 0.10752629, y: 0.64178723, z: 0.095615745, w: 0.7532629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_LArm_1
+      parentName: Elster_LArm_Collarbone
+      position: {x: -0.12012548, y: 0.000000009536743, z: 0.00000015258789}
+      rotation: {x: 0.0070060124, y: 0.09774984, z: -0.14640523, w: 0.9843584}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Elster_armL_twist1
+      parentName: Elster_LArm_1
+      position: {x: -0.0016647339, y: 0.0000000011920929, z: 0}
+      rotation: {x: 0.000000079162426, y: 0.00000008940697, z: -0.000000035855926,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Elster_LArm_2
+      parentName: Elster_LArm_1
+      position: {x: -0.26538903, y: 0.00000002026558, z: 0.00000015258789}
+      rotation: {x: 0.0020903233, y: -0.029495724, z: -0.03662093, w: 0.99889165}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: Elster_armL_twist2
+      parentName: Elster_LArm_2
+      position: {x: -0.004547577, y: 0.000000028610229, z: -0.000000076293944}
+      rotation: {x: -0.00000014155842, y: 0.0000026673083, z: -0.0000009834764, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Elster_LArm_Palm
+      parentName: Elster_LArm_2
+      position: {x: -0.22556503, y: 0.00000043869017, z: 0.0000012207031}
+      rotation: {x: -0.7049392, y: -0.05363363, z: 0.055091187, w: 0.7050881}
+      scale: {x: 0.9999994, y: 1, z: 1.0000005}
+    - name: Elster_Laccessory
+      parentName: Elster_LArm_Palm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000026659356, y: 0.0000009478533, z: 0.0000026226057, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 1.0000005}
+    - name: Elster_LArm_Thumb1
+      parentName: Elster_LArm_Palm
+      position: {x: -0.008376579, y: 0.000027542113, z: 0.011741948}
+      rotation: {x: 0.5871479, y: 0.26824594, z: -0.23630174, w: 0.7262665}
+      scale: {x: 1.0000023, y: 0.9999995, z: 0.9999981}
+    - name: Elster_LArm_Thumb2
+      parentName: Elster_LArm_Thumb1
+      position: {x: -0.07158432, y: 0.000000038146972, z: 0.00000030517577}
+      rotation: {x: 0.08316172, y: -0.015845012, z: 0.03375814, w: 0.9958381}
+      scale: {x: 1.0000007, y: 0.9999998, z: 0.99999946}
+    - name: Elster_LArm_Thumb3
+      parentName: Elster_LArm_Thumb2
+      position: {x: -0.032303926, y: 0.000000095367426, z: 0.00000015258789}
+      rotation: {x: -0.0059289937, y: -0.010853851, z: 0.0897786, w: 0.99588495}
+      scale: {x: 0.9999994, y: 1.000001, z: 0.9999996}
+    - name: Elster_LArm_Pinky1
+      parentName: Elster_LArm_Palm
+      position: {x: -0.08806026, y: -0.0029919434, z: -0.03460092}
+      rotation: {x: -0.000000609088, y: 0.0000011294604, z: 0.0000026226062, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 1.0000005}
+    - name: Elster_LArm_Pinky2
+      parentName: Elster_LArm_Pinky1
+      position: {x: -0.035168838, y: -0.00000015258789, z: 0.000000067949294}
+      rotation: {x: 0.00000007473662, y: 0.0000007636851, z: 0.0000026524078, w: 1}
+      scale: {x: 0.9999995, y: 0.9999999, z: 1.0000005}
+    - name: Elster_LArm_Pinky3
+      parentName: Elster_LArm_Pinky2
+      position: {x: -0.021234091, y: -0.00000015258789, z: 0.00000004172325}
+      rotation: {x: -0.00000026729163, y: 0.0000009455251, z: 0.0000021457683, w: 1}
+      scale: {x: 0.9999995, y: 0.99999994, z: 1.0000005}
+    - name: Elster_LArm_Pointer1
+      parentName: Elster_LArm_Palm
+      position: {x: -0.09252155, y: 0.007981643, z: 0.028795298}
+      rotation: {x: -0.00000060868143, y: -0.000023798206, z: 0.00017349429, w: 1}
+      scale: {x: 0.99999946, y: 0.99999994, z: 1.0000005}
+    - name: Elster_LArm_Pointer2
+      parentName: Elster_LArm_Pointer1
+      position: {x: -0.044890214, y: -0.00000030517577, z: 0.00000008106232}
+      rotation: {x: 0.000000073937755, y: 0.000025693564, z: -0.00016818951, w: 1}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000005}
+    - name: Elster_LArm_Pointer3
+      parentName: Elster_LArm_Pointer2
+      position: {x: -0.027280768, y: -0.00000015258789, z: 0.000000052452087}
+      rotation: {x: -0.00000026822326, y: 0.00000094762066, z: 0.0000024586934, w: 1}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000005}
+    - name: Elster_LArm_Ring1
+      parentName: Elster_LArm_Palm
+      position: {x: -0.090229146, y: 0.003582611, z: -0.014920542}
+      rotation: {x: -0.0000006084496, y: -0.000023798902, z: 0.0001734496, w: 1}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000005}
+    - name: Elster_LArm_Ring2
+      parentName: Elster_LArm_Ring1
+      position: {x: -0.04443722, y: -0.00000022888183, z: 0.0000000834465}
+      rotation: {x: 0.000000074403424, y: 0.000025693562, z: -0.0001681895, w: 1}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000005}
+    - name: Elster_LArm_Ring3
+      parentName: Elster_LArm_Ring2
+      position: {x: -0.027280807, y: -0.00000030517577, z: 0.000000052452087}
+      rotation: {x: -0.00000026566252, y: 0.0000009504145, z: 0.0000028610248, w: 1}
+      scale: {x: 0.9999994, y: 0.9999998, z: 1.0000005}
+    - name: Elster_LArm_Middle1
+      parentName: Elster_LArm_Palm
+      position: {x: -0.09165012, y: 0.010513535, z: 0.0068764878}
+      rotation: {x: -0.0000006084496, y: -0.000023798902, z: 0.0001734496, w: 1}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000005}
+    - name: Elster_LArm_Middle2
+      parentName: Elster_LArm_Middle1
+      position: {x: -0.052046355, y: -0.00000030517577, z: 0.000000095367426}
+      rotation: {x: 0.000000074403424, y: 0.000025693562, z: -0.0001681895, w: 1}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000005}
+    - name: Elster_LArm_Middle3
+      parentName: Elster_LArm_Middle2
+      position: {x: -0.027280807, y: -0.00000022888183, z: 0.000000047683713}
+      rotation: {x: -0.00000026566252, y: 0.0000009504145, z: 0.0000028610248, w: 1}
+      scale: {x: 0.9999994, y: 0.9999998, z: 1.0000005}
+    - name: Elster_RArmCollarbone
+      parentName: Elster_chest
+      position: {x: -0.12205337, y: 0.006806612, z: -0.05615739}
+      rotation: {x: -0.1075264, y: -0.64178705, z: 0.09561585, w: 0.7532629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_RArm1
+      parentName: Elster_RArmCollarbone
+      position: {x: -0.1201255, y: 0, z: -0.00000015258789}
+      rotation: {x: -0.007005901, y: -0.09775035, z: -0.14640532, w: 0.9843583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_armR_twist1
+      parentName: Elster_RArm1
+      position: {x: -0.0016647339, y: 0, z: 0}
+      rotation: {x: -0.000000079162426, y: -0.00000010430813, z: -0.000000036321588,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Elster_RArm2
+      parentName: Elster_RArm1
+      position: {x: -0.26538903, y: 0.000000019073486, z: 0}
+      rotation: {x: -0.0020902818, y: 0.029495545, z: -0.036620934, w: 0.9988917}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: Elster_armR_twist2
+      parentName: Elster_RArm2
+      position: {x: -0.0045477296, y: 0.000000019073486, z: 0.000000076293944}
+      rotation: {x: 0.00000014155836, y: -0.0000026822088, z: -0.0000009909268, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Elster_RArmPalm
+      parentName: Elster_RArm2
+      position: {x: -0.22556518, y: 0.00000044822693, z: -0.0000011444091}
+      rotation: {x: 0.70493925, y: 0.053633627, z: 0.055091184, w: 0.7050881}
+      scale: {x: 0.9999995, y: 1, z: 1.0000005}
+    - name: Elster_Raccessory
+      parentName: Elster_RArmPalm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0000002747427, y: -0.0000009615903, z: 0.0000026226057, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 1.0000005}
+    - name: Elster_RArmThumb1
+      parentName: Elster_RArmPalm
+      position: {x: -0.008376541, y: 0.000027542113, z: -0.011741943}
+      rotation: {x: -0.5871473, y: -0.2682462, z: -0.23630278, w: 0.72626656}
+      scale: {x: 1.0000023, y: 0.9999994, z: 0.99999815}
+    - name: Elster_RArmThumb2
+      parentName: Elster_RArmThumb1
+      position: {x: -0.07158428, y: 0.000000038146972, z: -0.0000003814697}
+      rotation: {x: -0.08316177, y: 0.015845964, z: 0.033756915, w: 0.9958381}
+      scale: {x: 1.0000006, y: 0.9999994, z: 0.9999998}
+    - name: Elster_RArmThumb3
+      parentName: Elster_RArmThumb2
+      position: {x: -0.032303847, y: 0.000000019073486, z: -0.00000015258789}
+      rotation: {x: 0.0059297937, y: 0.010852172, z: 0.089779414, w: 0.9958849}
+      scale: {x: 1, y: 0.99999964, z: 1.0000001}
+    - name: Elster_RArmPinky1
+      parentName: Elster_RArmPalm
+      position: {x: -0.08806022, y: -0.0029919434, z: 0.03460092}
+      rotation: {x: 0.00000061723705, y: -0.0000011431973, z: 0.0000026226062, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 1.0000005}
+    - name: Elster_RArmPinky2
+      parentName: Elster_RArmPinky1
+      position: {x: -0.035168838, y: -0.00000015258789, z: -0.000000067949294}
+      rotation: {x: -0.00000006682034, y: -0.0000007774221, z: 0.0000026524078, w: 1}
+      scale: {x: 0.9999995, y: 0.99999994, z: 1.0000005}
+    - name: Elster_RArmPinky3
+      parentName: Elster_RArmPinky2
+      position: {x: -0.021234168, y: -0.00000015258789, z: -0.00000004172325}
+      rotation: {x: 0.00000027381185, y: -0.0000009660139, z: 0.0000030994431, w: 1}
+      scale: {x: 0.9999995, y: 0.99999994, z: 1.0000005}
+    - name: Elster_RArmPointer1
+      parentName: Elster_RArmPalm
+      position: {x: -0.09252151, y: 0.007981719, z: -0.028795304}
+      rotation: {x: 0.00000061636723, y: 0.000023784469, z: 0.00017349429, w: 1}
+      scale: {x: 0.99999946, y: 0.99999994, z: 1.0000005}
+    - name: Elster_RArmPointer2
+      parentName: Elster_RArmPointer1
+      position: {x: -0.044890173, y: -0.00000030517577, z: -0.000000085830685}
+      rotation: {x: -0.00000006602382, y: -0.000025707302, z: -0.00016818951, w: 1}
+      scale: {x: 0.9999994, y: 0.99999994, z: 1.0000005}
+    - name: Elster_RArmPointer3
+      parentName: Elster_RArmPointer2
+      position: {x: -0.027280807, y: -0.000000076293944, z: -0.000000047683713}
+      rotation: {x: 0.00000027357876, y: -0.0000009643843, z: 0.0000028461236, w: 1}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000005}
+    - name: Elster_RArmRing1
+      parentName: Elster_RArmPalm
+      position: {x: -0.09022911, y: 0.0035827635, z: 0.014920539}
+      rotation: {x: 0.00000061636825, y: 0.000023784934, z: 0.0001734496, w: 1}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000005}
+    - name: Elster_RArmRing2
+      parentName: Elster_RArmRing1
+      position: {x: -0.044437177, y: -0.00000022888183, z: -0.000000085830685}
+      rotation: {x: -0.000000066955195, y: -0.000025707533, z: -0.0001681895, w: 1}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000005}
+    - name: Elster_RArmRing3
+      parentName: Elster_RArmRing2
+      position: {x: -0.027280807, y: -0.00000015258789, z: -0.0000000500679}
+      rotation: {x: 0.0000002754411, y: -0.0000009615904, z: 0.0000024735946, w: 1}
+      scale: {x: 0.9999994, y: 0.99999976, z: 1.0000005}
+    - name: Elster_RArmMiddle1
+      parentName: Elster_RArmPalm
+      position: {x: -0.09165012, y: 0.01051361, z: -0.0068764878}
+      rotation: {x: 0.00000061636825, y: 0.000023784934, z: 0.0001734496, w: 1}
+      scale: {x: 0.99999946, y: 0.9999999, z: 1.0000005}
+    - name: Elster_RArmMiddle2
+      parentName: Elster_RArmMiddle1
+      position: {x: -0.052046355, y: -0.00000022888183, z: -0.00000010967254}
+      rotation: {x: -0.000000066955195, y: -0.000025707533, z: -0.0001681895, w: 1}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000005}
+    - name: Elster_RArmMiddle3
+      parentName: Elster_RArmMiddle2
+      position: {x: -0.027280845, y: -0.00000015258789, z: -0.000000047683713}
+      rotation: {x: 0.0000002754411, y: -0.0000009615904, z: 0.0000024735946, w: 1}
+      scale: {x: 0.9999994, y: 0.99999976, z: 1.0000005}
+    - name: Elster_neck
+      parentName: Elster_chest
+      position: {x: -0.21582076, y: -0.03335397, z: 2.3283064e-12}
+      rotation: {x: 0.000013603616, y: -0.00028605762, z: -0.12247334, w: 0.99247175}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Elster_Head
+      parentName: Elster_neck
+      position: {x: -0.07527908, y: 0, z: -7.4505804e-11}
+      rotation: {x: -0.0000134853035, y: 0.0002861324, z: 0.12247334, w: 0.99247175}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000001}
+    - name: Elster_lips
+      parentName: Elster_Head
+      position: {x: 0.0014976502, y: 0.10270018, z: 0.000043306514}
+      rotation: {x: 0.00000023096794, y: 0.00000014901053, z: 0.00000016391218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_lipL
+      parentName: Elster_lips
+      position: {x: 0.005875244, y: -0.004226065, z: 0.011828764}
+      rotation: {x: -0.0111113265, y: 0.0000010113682, z: 0.00000017748873, w: 0.9999383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_lipM
+      parentName: Elster_lips
+      position: {x: 0.0055699158, y: 0, z: -4.691537e-10}
+      rotation: {x: -0.008741232, y: 0.0000014834333, z: 0.000000093922885, w: 0.9999618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_mouthL
+      parentName: Elster_lips
+      position: {x: 0.009265594, y: -0.010664052, z: 0.019998236}
+      rotation: {x: 0.00000042021313, y: 0.00000081211226, z: 0.00000014017621, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_lipR
+      parentName: Elster_lips
+      position: {x: 0.005875244, y: -0.004226084, z: -0.011828769}
+      rotation: {x: 0.011111787, y: -0.00000069872857, z: 0.00000017418252, w: 0.99993825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_mouthR
+      parentName: Elster_lips
+      position: {x: 0.009265594, y: -0.010664072, z: -0.019998249}
+      rotation: {x: 0.00000004172279, y: -0.00000051409114, z: 0.00000014017732, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_brow
+      parentName: Elster_Head
+      position: {x: -0.068467714, y: 0.11548889, z: 0.000043329957}
+      rotation: {x: -0.0000005883457, y: 0.00000014901039, z: 0.00000016391229, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browL1
+      parentName: Elster_brow
+      position: {x: 0.0018301391, y: 0.000000009536743, z: 0.017714385}
+      rotation: {x: 0.00000012938919, y: 0.0000017921024, z: 0.0000017478962, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browL2
+      parentName: Elster_brow
+      position: {x: -0.0017422485, y: 0.000000028610229, z: 0.033588793}
+      rotation: {x: 0.00000008804099, y: 0.00000014901023, z: 0.00000016391243, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browR1
+      parentName: Elster_brow
+      position: {x: 0.0018301391, y: -0.000000019073486, z: -0.017714385}
+      rotation: {x: 0.00000033254707, y: -0.0000014940823, z: 0.0000017478988, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browL3
+      parentName: Elster_brow
+      position: {x: 0.001003418, y: 0.000000028610229, z: 0.053847283}
+      rotation: {x: -0.000000040154394, y: 0.00000014203565, z: 0.0000001196863, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browR2
+      parentName: Elster_brow
+      position: {x: -0.0017422485, y: -0.000000009536743, z: -0.03358879}
+      rotation: {x: 0.00000037389486, y: 0.00000014901029, z: 0.00000016391239, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_browR3
+      parentName: Elster_brow
+      position: {x: 0.0010035705, y: -0.000000028610229, z: -0.053847283}
+      rotation: {x: 0.0000005020903, y: 0.00000015598454, z: 0.00000011968592, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_head_accessories
+      parentName: Elster_Head
+      position: {x: -0.21268752, y: -0.000000028610229, z: 0.00000005229376}
+      rotation: {x: 0.00000023096794, y: 0.00000014901053, z: 0.00000016391218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_visor_hinge
+      parentName: Elster_head_accessories
+      position: {x: 0.11047684, y: 0.06784749, z: 0.0000000028871}
+      rotation: {x: 0.00000015130897, y: 0.00000022899548, z: -0.21643952, w: 0.97629607}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1}
+    - name: Elster_nvg_hinge1
+      parentName: Elster_head_accessories
+      position: {x: 0.08755355, y: 0.16437116, z: 0.000000044298357}
+      rotation: {x: 0.00000013174494, y: -0.00000012695753, z: 0.9659259, w: 0.25881892}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1}
+    - name: Elster_nvg_hinge2
+      parentName: Elster_nvg_hinge1
+      position: {x: 0.029720915, y: 0.020849913, z: 0.000000013867393}
+      rotation: {x: -0.000000025688474, y: -0.00000015180633, z: -0.8433915, w: 0.5372996}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1}
+    - name: Elster_hair_root
+      parentName: Elster_Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000023096794, y: 0.00000014901053, z: 0.00000016391218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_ahogeR1
+      parentName: Elster_hair_root
+      position: {x: -0.1781807, y: 0.041201036, z: -0.022778843}
+      rotation: {x: 0.6235271, y: 0.50108665, z: 0.37413615, w: -0.4691996}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999976}
+    - name: Elster_ahogeR2
+      parentName: Elster_ahogeR1
+      position: {x: -0.021712685, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.008592624, y: 0.022830307, z: -0.35213482, w: 0.9356314}
+      scale: {x: 1.0000017, y: 0.99999845, z: 0.9999998}
+    - name: Elster_ahogeR3
+      parentName: Elster_ahogeR2
+      position: {x: -0.021712799, y: -0.00000015258789, z: 0}
+      rotation: {x: 0.027922295, y: 0.012246488, z: -0.18511085, w: 0.98224455}
+      scale: {x: 1.0000013, y: 0.9999988, z: 0.9999998}
+    - name: Elster_ahogeR4
+      parentName: Elster_ahogeR3
+      position: {x: -0.021712646, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.0033839187, y: 0.015867816, z: -0.078224935, w: 0.99680376}
+      scale: {x: 1.0000013, y: 0.99999887, z: 0.9999998}
+    - name: Elster_ahogeR5
+      parentName: Elster_ahogeR4
+      position: {x: -0.021712646, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.017922077, y: 0.01931608, z: 0.14269844, w: 0.9894154}
+      scale: {x: 1.0000014, y: 0.9999985, z: 0.9999999}
+    - name: Elster_ahogeL1
+      parentName: Elster_hair_root
+      position: {x: -0.17474808, y: 0.056005742, z: -0.025543148}
+      rotation: {x: 0.52777123, y: 0.38765344, z: -0.50022626, w: 0.5665298}
+      scale: {x: 1.0000002, y: 0.99999976, z: 0.99999994}
+    - name: Elster_ahogeL2
+      parentName: Elster_ahogeL1
+      position: {x: -0.02748436, y: -0.00000015258789, z: 0.000000009536743}
+      rotation: {x: 0.004235783, y: -0.024023661, z: -0.17358576, w: 0.9845166}
+      scale: {x: 1.0000008, y: 0.99999905, z: 0.9999999}
+    - name: Elster_ahogeL3
+      parentName: Elster_ahogeL2
+      position: {x: -0.027484396, y: 0.00000015258789, z: -0.000000019073486}
+      rotation: {x: -0.0178927, y: 0.068096094, z: -0.20455576, w: 0.9763195}
+      scale: {x: 1.000001, y: 0.99999887, z: 1}
+    - name: Elster_ahogeL4
+      parentName: Elster_ahogeL3
+      position: {x: -0.027484436, y: 0.00000015258789, z: 0}
+      rotation: {x: -0.0015268883, y: 0.087268695, z: -0.09760021, w: 0.991391}
+      scale: {x: 1.0000007, y: 0.99999875, z: 1.0000002}
+    - name: Elster_ahogeL5
+      parentName: Elster_ahogeL4
+      position: {x: -0.027484436, y: 0, z: -0.000000038146972}
+      rotation: {x: -0.0065610837, y: 0.14488131, z: -0.062770784, w: 0.98743415}
+      scale: {x: 1, y: 0.99999875, z: 1.0000008}
+    - name: Elster_strandLc1
+      parentName: Elster_hair_root
+      position: {x: -0.12250152, y: 0.09683588, z: 0.053302042}
+      rotation: {x: -0.07898914, y: -0.42101058, z: 0.90285885, w: 0.03683364}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.9999997}
+    - name: Elster_strandLc2
+      parentName: Elster_strandLc1
+      position: {x: -0.03825195, y: -0.000000047683713, z: -0.000000019073486}
+      rotation: {x: 0.000000010228725, y: -0.0000002831221, z: 0.00000059879886, w: 1}
+      scale: {x: 0.9999998, y: 1.0000005, z: 0.9999997}
+    - name: Elster_strandLc3
+      parentName: Elster_strandLc2
+      position: {x: -0.0382518, y: -0.000000047683713, z: -0.000000019073486}
+      rotation: {x: 0.000000018569619, y: -0.01454418, z: 0.00000060298447, w: 0.99989426}
+      scale: {x: 0.9999999, y: 1.0000005, z: 0.9999997}
+    - name: Elster_strandLc4
+      parentName: Elster_strandLc3
+      position: {x: -0.03825195, y: -0.000000057220458, z: -0.000000019073486}
+      rotation: {x: 0.0025361674, y: -0.05808975, z: -0.04354503, w: 0.997358}
+      scale: {x: 0.9999998, y: 1.0000006, z: 0.9999996}
+    - name: Elster_strandLc5
+      parentName: Elster_strandLc4
+      position: {x: -0.03825195, y: -0.000000047683713, z: -0.000000019073486}
+      rotation: {x: 0.004399706, y: -0.1007738, z: -0.04338961, w: 0.99395305}
+      scale: {x: 0.9999997, y: 1.0000007, z: 0.9999994}
+    - name: Elster_strand_La1
+      parentName: Elster_hair_root
+      position: {x: -0.13879791, y: 0.1174413, z: -0.015277021}
+      rotation: {x: -0.3987489, y: 0.000000024481206, z: 0.91706014, w: 0.00000050577916}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Elster_strand_La2
+      parentName: Elster_strand_La1
+      position: {x: -0.036045074, y: 0.000000038146972, z: -0.00000015258789}
+      rotation: {x: -0.000000062326016, y: -0.02617695, z: -0.0000003765733, w: 0.99965733}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Elster_strand_La3
+      parentName: Elster_strand_La2
+      position: {x: -0.036044996, y: 0.000000028610229, z: 0}
+      rotation: {x: -0.0156378, y: -0.13989496, z: -0.17294292, w: 0.9748208}
+      scale: {x: 1.0000002, y: 0.9999995, z: 1.0000001}
+    - name: Elster_strand_La4
+      parentName: Elster_strand_La3
+      position: {x: -0.036045074, y: 0.000000038146972, z: 0.00000015258789}
+      rotation: {x: -0.02764561, y: -0.1933497, z: 0.06675619, w: 0.9784658}
+      scale: {x: 1, y: 0.99999964, z: 1.0000004}
+    - name: Elster_strand_La5
+      parentName: Elster_strand_La4
+      position: {x: -0.036045074, y: 0.000000019073486, z: 0.000000019073486}
+      rotation: {x: -0.025429843, y: -0.15868069, z: 0.07605164, w: 0.98406804}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1.0000004}
+    - name: Elster_strand_Lb1
+      parentName: Elster_hair_root
+      position: {x: -0.13879791, y: 0.1174413, z: -0.015277021}
+      rotation: {x: -0.3987489, y: -0.0000009919773, z: 0.91706014, w: -0.0000006293776}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Elster_strand_Lb2
+      parentName: Elster_strand_Lb1
+      position: {x: -0.036045074, y: -0.000000057220458, z: -0.00000015258789}
+      rotation: {x: -0.000000028000892, y: -0.02617695, z: 0.00000093427525, w: 0.99965733}
+      scale: {x: 0.99999976, y: 1, z: 1.0000002}
+    - name: Elster_strand_Lb3
+      parentName: Elster_strand_Lb2
+      position: {x: -0.036045074, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.0045454726, y: -0.025779331, z: -0.17358805, w: 0.9844704}
+      scale: {x: 0.9999985, y: 1.0000012, z: 1.0000001}
+    - name: Elster_strand_Lb4
+      parentName: Elster_strand_Lb3
+      position: {x: -0.036045074, y: -0.000000095367426, z: -0.000000076293944}
+      rotation: {x: 0.005268634, y: -0.080385305, z: -0.064846866, w: 0.9946383}
+      scale: {x: 0.99999833, y: 1.0000014, z: 1.0000001}
+    - name: Elster_strand_Lb5
+      parentName: Elster_strand_Lb4
+      position: {x: -0.03604492, y: 0, z: 0}
+      rotation: {x: 0.00039227022, y: -0.057002366, z: -0.06271362, w: 0.9964023}
+      scale: {x: 0.99999833, y: 1.0000017, z: 0.99999994}
+    - name: Elster_strand1
+      parentName: Elster_hair_root
+      position: {x: -0.13440856, y: 0.11744129, z: -0.03138777}
+      rotation: {x: -0.11268213, y: 0.010850033, z: 0.98899764, w: -0.09523002}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: Elster_strand2
+      parentName: Elster_strand1
+      position: {x: -0.024520416, y: -0.000000038146972, z: -0.000000038146972}
+      rotation: {x: -0.0024233656, y: 0.06937572, z: -0.034813073, w: 0.9969801}
+      scale: {x: 0.99999964, y: 0.99999994, z: 1.0000002}
+    - name: Elster_strand3
+      parentName: Elster_strand2
+      position: {x: -0.024520263, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.002377246, y: 0.0687085, z: -0.034803167, w: 0.99702674}
+      scale: {x: 0.99999934, y: 1.0000002, z: 1.0000005}
+    - name: Elster_strand4
+      parentName: Elster_strand3
+      position: {x: -0.024520416, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.0022786844, y: 0.06772674, z: -0.03476733, w: 0.99709535}
+      scale: {x: 0.9999991, y: 1.0000005, z: 1.0000007}
+    - name: Elster_strand5
+      parentName: Elster_strand4
+      position: {x: -0.024520416, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.0021164438, y: 0.066455826, z: -0.034681223, w: 0.9971842}
+      scale: {x: 0.99999887, y: 1.0000006, z: 1.0000008}
+    - name: Elster_strandRb1
+      parentName: Elster_hair_root
+      position: {x: -0.13317367, y: 0.0897069, z: -0.05848558}
+      rotation: {x: 0.09968985, y: 0.47012004, z: 0.8768237, w: -0.01514036}
+      scale: {x: 1.0000001, y: 0.99999946, z: 1.0000005}
+    - name: Elster_strandRb2
+      parentName: Elster_strandRb1
+      position: {x: -0.040919494, y: -0.000000076293944, z: -0.000000019073486}
+      rotation: {x: 0.0015222848, y: 0.043592766, z: -0.03486537, w: 0.99843967}
+      scale: {x: 0.99999994, y: 0.99999964, z: 1.0000005}
+    - name: Elster_strandRb3
+      parentName: Elster_strandRb2
+      position: {x: -0.04091934, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.001510823, y: 0.04359246, z: -0.034600396, w: 0.99844897}
+      scale: {x: 0.99999964, y: 1, z: 1.0000005}
+    - name: Elster_strandRb4
+      parentName: Elster_strandRb3
+      position: {x: -0.04091919, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.00043771262, y: 0.043610096, z: -0.077593826, w: 0.99603075}
+      scale: {x: 0.99999917, y: 1.0000005, z: 1.0000005}
+    - name: Elster_strandRb5
+      parentName: Elster_strandRb4
+      position: {x: -0.04091919, y: -0.000000038146972, z: 0.000000019073486}
+      rotation: {x: -0.0005344509, y: 0.043256737, z: -0.07681392, w: 0.99610656}
+      scale: {x: 0.99999875, y: 1.0000008, z: 1.0000004}
+    - name: Elster_strandRa1
+      parentName: Elster_hair_root
+      position: {x: -0.13317367, y: 0.10167955, z: -0.049315643}
+      rotation: {x: 0.11897809, y: 0.42664254, z: 0.8951722, w: -0.04987139}
+      scale: {x: 1.0000001, y: 0.99999934, z: 1.0000005}
+    - name: Elster_strandRa2
+      parentName: Elster_strandRa1
+      position: {x: -0.036211852, y: 0.000000038146972, z: -0.000000019073486}
+      rotation: {x: 0.0015218778, y: 0.04359273, z: -0.034866564, w: 0.9984396}
+      scale: {x: 1.0000002, y: 0.9999992, z: 1.0000005}
+    - name: Elster_strandRa3
+      parentName: Elster_strandRa2
+      position: {x: -0.036211852, y: 0.000000038146972, z: -0.000000009536743}
+      rotation: {x: 0.0015102985, y: 0.043592405, z: -0.03460149, w: 0.9984489}
+      scale: {x: 1.0000004, y: 0.9999993, z: 1.0000005}
+    - name: Elster_strandRa4
+      parentName: Elster_strandRa3
+      position: {x: -0.036211852, y: 0.000000038146972, z: -0.0000000047683715}
+      rotation: {x: 0.0014643626, y: 0.043587536, z: -0.034074616, w: 0.9984673}
+      scale: {x: 1.0000005, y: 0.9999991, z: 1.0000005}
+    - name: Elster_strandRa5
+      parentName: Elster_strandRa4
+      position: {x: -0.036211852, y: 0.000000009536743, z: -0.000000019073486}
+      rotation: {x: 0.0013625608, y: 0.04356957, z: -0.033292655, w: 0.9984946}
+      scale: {x: 1.0000005, y: 0.99999917, z: 1.0000006}
+    - name: Elster_EyeL
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.06315634, z: 0.034512796}
+      rotation: {x: 0.00000022852097, y: 0.00000014711495, z: 0.00000014999765, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_eyelid_upperleft
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.06315634, z: 0.034512796}
+      rotation: {x: 0.00000023560038, y: 0.00000015294412, z: 0.00000016391218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_jaw
+      parentName: Elster_Head
+      position: {x: -0.028272094, y: 0.023826081, z: 0.000000015832484}
+      rotation: {x: 0.00000022731923, y: 0.00000016698573, z: 0.0000001564616, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Lowerlip_edge_L
+      parentName: Elster_jaw
+      position: {x: 0.03663559, y: 0.078265905, z: 0.020163504}
+      rotation: {x: 0.00000040480197, y: 0.0000005811439, z: 0.00000011974087, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Lowerlip_M
+      parentName: Elster_jaw
+      position: {x: 0.039671782, y: 0.07826984, z: 0.0000432717}
+      rotation: {x: -0.0000012233312, y: 0.00000017136172, z: 0.00000014528597, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Lowerlip_mid_L
+      parentName: Elster_jaw
+      position: {x: 0.037652433, y: 0.07826589, z: 0.00955003}
+      rotation: {x: 0.0000005357848, y: 0.0000010430799, z: 0.00000012200807, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Lowerlip_edge_R
+      parentName: Elster_jaw
+      position: {x: 0.03663559, y: 0.07826588, z: -0.020163452}
+      rotation: {x: 0.00000005154168, y: -0.00000023842003, z: 0.00000011974139, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_Lowerlip_mid_R
+      parentName: Elster_jaw
+      position: {x: 0.037652433, y: 0.07826589, z: -0.009549983}
+      rotation: {x: -0.000000071990506, y: -0.000000700356, z: 0.00000012200937, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_cheek_l
+      parentName: Elster_Head
+      position: {x: -0.017444152, y: 0.090693384, z: 0.036988974}
+      rotation: {x: 0.000000101062625, y: 0.0000001490105, z: 0.00000016391219, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_eyelid_lowerleft
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.06315634, z: 0.034512796}
+      rotation: {x: 0.00000023329625, y: 0.00000016071029, z: 0.00000013453003, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_EyeR
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.063156314, z: -0.0345127}
+      rotation: {x: 0.00000023096793, y: 0.00000014624175, z: 0.00000015054857, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_eyelid_lowerright
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.063156314, z: -0.0345127}
+      rotation: {x: 0.00000021441122, y: 0.00000015816026, z: 0.00000018626392, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_eyelid_upperright
+      parentName: Elster_Head
+      position: {x: -0.056700744, y: 0.063156314, z: -0.0345127}
+      rotation: {x: 0.00000023688233, y: 0.00000015188132, z: 0.00000016391218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_cheek_r
+      parentName: Elster_Head
+      position: {x: -0.017444152, y: 0.09069335, z: -0.036988877}
+      rotation: {x: 0.00000036087326, y: 0.00000014901055, z: 0.00000016391215, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Elster_RLeg1
+      parentName: Elster_Hip
+      position: {x: 0.023198776, y: 0.00000012874602, z: -0.098946795}
+      rotation: {x: 0.012196324, y: 0.9999256, z: -0.000069185546, w: 0.00022420997}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.99999994}
+    - name: Elster_RLeg2
+      parentName: Elster_RLeg1
+      position: {x: -0.47281143, y: 0.0000023174284, z: 0.0000018978119}
+      rotation: {x: -0.0023401668, y: 0.0006331996, z: 0.05146499, w: 0.9986719}
+      scale: {x: 0.99999833, y: 1.000001, z: 0.9999999}
+    - name: Elster_RLegAnkle
+      parentName: Elster_RLeg2
+      position: {x: -0.47516584, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.003120239, y: 0.002243245, z: -0.5085686, w: 0.8610129}
+      scale: {x: 0.9999934, y: 1.000007, z: 1.0000001}
+    - name: Elster_Toe_R
+      parentName: Elster_RLegAnkle
+      position: {x: -0.14308305, y: 0.010547666, z: -0.000161829}
+      rotation: {x: 0.0003401115, y: -0.0000001361173, z: -0.3007056, w: 0.95371693}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Elster_posterior_R
+      parentName: Elster_Hip
+      position: {x: 0.04022331, y: -0.077542886, z: -0.087927885}
+      rotation: {x: 3.3103062e-22, y: -2.7268017e-21, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
