@@ -39,6 +39,7 @@
             float4 Color0;
             float4 Color1;
             float _Band;
+            float _AudioHue;
 
             //HSV to RGB conversion from: https://stackoverflow.com/questions/15095909/from-rgb-to-hsv-in-opengl-glsl
             float3 HSVtoRGB(float _Hue, float _Saturation, float _Value)
@@ -55,14 +56,11 @@
                 o.uv = v.uv;
                 
                 //shift color with audiolink 4 band over time
-                
-                Color0.xyz = HSVtoRGB(1 - ((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _Band ) ).r % 1000000) / 1000000.0), 1, 1);
+                _AudioHue = (AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _Band ) ).r % 1000000) / 1000000.;
+                Color0.xyz = HSVtoRGB(1 - _AudioHue, 1, 1);
                 Color0.w = 1;
 
-                //Color1.xyz = HSVtoRGB(((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _Band1 ) ).r % 1000000) / 1000000.0), 1, 1);
-                Color1.x = Color0.x * Color0.y;
-                Color1.y = Color0.y * Color0.z;
-                Color1.z = Color0.z * Color0.x;
+                Color1.xyz = HSVtoRGB(_AudioHue, 1, 1);
                 Color1.w = 1;
 
                 o.color = lerp(Color0, Color1, o.uv.x);
