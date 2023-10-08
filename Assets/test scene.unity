@@ -1815,6 +1815,7 @@ GameObject:
   - component: {fileID: 5938497680230824933}
   - component: {fileID: 1135527596372409127}
   - component: {fileID: 1135527596372409126}
+  - component: {fileID: 1135527596372409128}
   m_Layer: 0
   m_Name: ClubAvatar 2
   m_TagString: Untagged
@@ -2264,6 +2265,19 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &1135527596372409128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135527596372409125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!4 &1273881737092934224
 Transform:
   m_ObjectHideFlags: 0
