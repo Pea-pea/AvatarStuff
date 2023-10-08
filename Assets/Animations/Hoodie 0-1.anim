@@ -31,7 +31,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 100
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -41,8 +41,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._UDIMDiscardRow1_0
-    path: Mesh
+    attribute: material._UDIMDiscardRow0_1
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -54,8 +54,8 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1096652136
-      attribute: 2258789521
+      path: 2073732236
+      attribute: 2154249776
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -96,7 +96,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 100
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -106,8 +106,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._UDIMDiscardRow1_0
-    path: Mesh
+    attribute: material._UDIMDiscardRow0_1
+    path: Body
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []

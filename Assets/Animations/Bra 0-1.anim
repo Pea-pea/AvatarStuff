@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crop Top 0-1
+  m_Name: Bra 0-1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._UDIMDiscardRow0_3
+    attribute: material._UDIMDiscardRow3_2
     path: Body
     classID: 137
     script: {fileID: 0}
@@ -55,7 +55,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 2073732236
-      attribute: 2389270300
+      attribute: 2334708179
       script: {fileID: 0}
       typeID: 137
       customType: 22
@@ -106,7 +106,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._UDIMDiscardRow0_3
+    attribute: material._UDIMDiscardRow3_2
     path: Body
     classID: 137
     script: {fileID: 0}

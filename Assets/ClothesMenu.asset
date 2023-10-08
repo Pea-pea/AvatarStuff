@@ -23,6 +23,36 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: f8c98faf1725df64c9b3eb067778538d, type: 2}
     subParameters: []
     labels: []
+  - name: Undergarmets
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: fc9b1844b7b603c438949e5650e3f257, type: 2}
+    subParameters: []
+    labels: []
+  - name: Skirt
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Skirt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Hood
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hood
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: Hoodie
     icon: {fileID: 0}
     type: 102
@@ -38,26 +68,6 @@ MonoBehaviour:
     type: 102
     parameter:
       name: Crop Top
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Skirt
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Skirt
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Shorts
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Shorts
     value: 1
     style: 0
     subMenu: {fileID: 0}
