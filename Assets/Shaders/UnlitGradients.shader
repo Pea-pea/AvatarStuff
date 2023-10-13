@@ -33,9 +33,10 @@
         {
             CGPROGRAM
             #pragma vertex vert //runs on every vertex onscreen
-            #pragma fragment frag //runs on every pixel onscreen 
+            #pragma fragment frag //runs on every pixel onscreen
 
             #include "UnityCG.cginc"
+            #include "Lighting.cginc"
             #include "Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLink.cginc" //audiolink cginc
             
             struct appdata //data coming from the mesh
@@ -124,7 +125,9 @@
             {
                 if (_LinesEnabled)
                 {
-                i.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 1024., _LinesBand ) ).r * _LinesGain);
+                float Sample = saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(i.uv.y * 128., _LinesBand ) ).r * _LinesGain);
+                half Line = clamp( 1 - (.8 * abs( 1 - (Sample * .2) + (i.uv.x * .9))), 0, 1 );
+                i.color.xyz -= Line;
                 }
 
                 return i.color;
