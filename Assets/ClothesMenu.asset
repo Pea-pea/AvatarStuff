@@ -45,13 +45,14 @@ MonoBehaviour:
     labels: []
   - name: Hood
     icon: {fileID: 0}
-    type: 102
+    type: 203
     parameter:
-      name: Hood
+      name: 
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters: []
+    subParameters:
+    - name: Hood
     labels: []
   - name: Hoodie
     icon: {fileID: 0}
