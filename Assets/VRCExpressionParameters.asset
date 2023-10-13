@@ -69,7 +69,7 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: Hood
-    valueType: 2
+    valueType: 1
     saved: 1
     defaultValue: 0
     networkSynced: 1
@@ -81,5 +81,10 @@ MonoBehaviour:
   - name: Panties
     valueType: 2
     saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: NailLength
+    valueType: 1
+    saved: 1
     defaultValue: 0
     networkSynced: 1
