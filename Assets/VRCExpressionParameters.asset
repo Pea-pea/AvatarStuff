@@ -88,3 +88,8 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: HoodieMaterial
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
