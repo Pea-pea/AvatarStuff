@@ -26,37 +26,40 @@
     },
     "lyuma.av3emulator": {
       "version": "3.2.1"
+    },
+    "io.github.rurre.editor-screenshot": {
+      "version": "1.1.2"
     }
   },
   "locked": {
     "com.vrchat.avatars": {
-      "version": "3.2.3",
+      "version": "3.4.1",
       "dependencies": {
-        "com.vrchat.base": "3.2.3"
+        "com.vrchat.base": "3.4.1"
       }
     },
     "com.vrchat.base": {
-      "version": "3.2.3",
+      "version": "3.4.1",
       "dependencies": {}
     },
     "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.21",
+      "version": "0.1.26",
       "dependencies": {}
     },
     "dev.vrlabs.av3manager": {
-      "version": "2.0.23",
+      "version": "2.0.25",
       "dependencies": {
-        "com.vrchat.avatars": "~3.2.0"
+        "com.vrchat.avatars": ">=3.2.0 < 3.5.0"
       }
     },
     "vrchat.blackstartx.gesture-manager": {
-      "version": "3.8.5",
+      "version": "3.8.7",
       "dependencies": {
-        "com.vrchat.avatars": "3.2.x"
+        "com.vrchat.avatars": "3.2.x || 3.3.x || 3.4.x"
       }
     },
     "com.llealloo.audiolink": {
-      "version": "0.3.2",
+      "version": "1.2.0",
       "dependencies": {}
     },
     "io.github.rurre.pumkinsavatartools": {
@@ -64,7 +67,7 @@
       "dependencies": {}
     },
     "com.vrcfury.vrcfury": {
-      "version": "1.409.0",
+      "version": "1.484.0",
       "dependencies": {}
     },
     "vrchat.jordo.easyquestswitch": {
@@ -72,10 +75,14 @@
       "dependencies": {}
     },
     "lyuma.av3emulator": {
-      "version": "3.2.1",
+      "version": "3.2.4",
       "dependencies": {
-        "com.vrchat.avatars": ">=3.1.0 <3.3.0"
+        "com.vrchat.avatars": ">=3.1.0 <3.5.0"
       }
+    },
+    "io.github.rurre.editor-screenshot": {
+      "version": "1.1.2",
+      "dependencies": {}
     }
   }
 }
