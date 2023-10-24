@@ -3,9 +3,9 @@
     Properties
     {   
         [Header(Colors)]
-        _Hue("Hue: ", range(0,1)) = 0.5
-        _Saturation("Saturation: ", range(0,1)) = 1
-        _Value("Value: ", float) = 1
+        _Lightness("Lightness: ", range(0,1)) = 0.5
+        _Chroma("Chroma: ", range(0,1)) = 1
+        _Hue("Hue: ", range(0,1)) = 1
            
         [Header(Gradient Controls)]
         _ColorStart("ColorStart: ", Range(0,1)) = 0.5
@@ -19,7 +19,7 @@
         [Header(Audiolink Bands)]
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ColorStartBand("ColorStartBand: ", int) = 0
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _HueBand("HueBand: ", int) = 1
-        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ValueBand("ValueBand: ", int) = 2
+        [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _ChromaBand("ChromaBand: ", int) = 2
         [Enum(Bass,0,LowMid,1,HighMid,2,Trebble,3)] _LinesBand("LinesBand: ", int) = 3
 
         [Space(20)] _AudioLink ("AudioLink Texture", 2D) = "black" {}
@@ -53,12 +53,25 @@
                 UNITY_VERTEX_OUTPUT_STEREO
             };
 
+            struct OKLAB //OKLAB color space
+            {
+                float L; //Lightness
+                float C; //Chroma
+                float H; //Hue
+                float a; //GreenRed
+                float b; //BlueYellow
+            };
+
+            float _Chroma;
+            float _Lightness;
+            float _Hue;
+            float _GreenRed;
+            float _BlueYellow;
+            
+
             float _ColorStart;
             float _ColorEnd;
             float _Exponent;
-            float _Hue;
-            float _Saturation;
-            float _Value;
 
             float _ShiftedColorStart;
             float _ShiftedHue;
@@ -66,7 +79,7 @@
 
             int _ColorStartBand;
             int _HueBand;
-            int _ValueBand;
+            int _ChromaBand;
             int _LinesBand;
 
             float _LinesGain;
@@ -87,13 +100,24 @@
                 return (1 - pow(1 - t, exponent)) * a + pow(t, exponent) * b;
             }
 
-            //HSV to RGB conversion from: https://stackoverflow.com/questions/15095909/from-rgb-to-hsv-in-opengl-glsl
-            float3 HSVtoRGB(float _Hue, float _Saturation, float _Value)
+            //OKLAB to sRGB conversion from: https://bottosson.github.io/posts/oklab/
+            float4 OKLABtoRGB(float L, float A, float B)
             {
-                float4 K = float4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
-                float3 p = abs(frac(float3(_Hue, _Hue, _Hue) + float3(K.x, K.y, K.z)) * 6.0 - float3(K.w, K.w, K.w));
-                return _Value * lerp(float3(K.x, K.x, K.x), clamp(p - float3(K.x, K.x, K.x), 0.0, 1.0), _Saturation);
+                float y = (L + 0.3963377774 * A + 0.2158037573 * B);
+                float x = (L - 0.1055613458 * A - 0.0638541728 * B);
+                float z = (L - 0.0894841775 * A - 1.2914855480 * B);
+
+                float r = 3.2404542 * x - 1.5371385 * y - 0.4985314 * z;
+                float g = -0.9692660 * x + 1.8760108 * y + 0.0415560 * z;
+                float b = 0.0556434 * x - 0.2040259 * y + 1.0572252 * z;
+                
+                r = r <= 0.0031308 ? 12.92 * r : 1.055 * pow(r, 1 / 2.4) - 0.055;
+                g = g <= 0.0031308 ? 12.92 * g : 1.055 * pow(g, 1 / 2.4) - 0.055;
+                b = b <= 0.0031308 ? 12.92 * b : 1.055 * pow(b, 1 / 2.4) - 0.055;
+
+                return float4(r, g, b, 1);
             }
+
 
             v2f vert (appdata v)
             {
@@ -101,19 +125,22 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
 
-                //shift _Hue with audiolink 4 band over time
-                _ShiftedHue = _Hue + ((AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ).r % 1000000) / 1000000.0); 
+                //shift _Hue with audiolink band over time
+                _Hue = (AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ) % 1000000.) / 1000000.; 
+
+                //shift _Chroma with audiolink band
+                _Chroma -= AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 5, _ChromaBand ) );
                 
-                //shift _ColorStart with audiolink 4 band
-                _ShiftedColorStart = saturate(_ColorStart + (AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ColorStartBand ) ) * .2));
+                //shift _ColorStart with audiolink band
+                _ColorStart -= AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 1, _ColorStartBand ) );
                 
-                //shift _Value with audiolink 4 band
-                _ShiftedValue = _Value + saturate(AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 10, _ValueBand ) ).r);
+                //convert from LCH to Lab color space
+                _GreenRed = _Chroma * cos(_Hue * 6.28318530718);
+                _BlueYellow = _Chroma * sin(_Hue * 6.28318530718);
 
                 //gradient stuff:
-                float t = saturate(InvLerp(_ShiftedColorStart, _ColorEnd, v.uv.x));
-                hsv.xyz = HSVtoRGB(_ShiftedHue, _Saturation, _ShiftedValue);
-                o.color = ExponentialInterpolate(half4(0,0,0,0), hsv, t, _Exponent);
+                float t = InvLerp(_ColorStart, _ColorEnd, v.uv.x);
+                o.color = ExponentialInterpolate(half4(0,0,0,0), OKLABtoRGB(_Lightness, _GreenRed, _BlueYellow), t, _Exponent);
                 
                 //lines with waveform
                 //o.color.xyz -= saturate(AudioLinkLerpMultiline( ALPASS_WAVEFORM  + float2(o.uv.y * 512 , _LinesBand ) ).rrr * 0.2);

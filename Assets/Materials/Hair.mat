@@ -772,6 +772,7 @@ Material:
     - _BlueColorThemeIndex: 0
     - _BlueTextureStochastic: 0
     - _BlueTextureUV: 0
+    - _BlueYellow: 1
     - _Brightness: 1
     - _BumpMapStochastic: 0
     - _BumpMapUV: 0
@@ -783,6 +784,8 @@ Material:
     - _CenterOutDissolveMode: 1
     - _CenterOutDissolveNormals: 0
     - _CenterOutDissolvePower: 1
+    - _Chroma: 1
+    - _ChromaBand: 1
     - _ChronoBass: 0
     - _ClearCoatBRDF: 0
     - _ClearCoatForceFallback: 0
@@ -826,8 +829,8 @@ Material:
     - _ClothSmoothness: 0.5
     - _ColorEnd: 1
     - _ColorMask: 15
-    - _ColorStart: 0.2
-    - _ColorStartBand: 0
+    - _ColorStart: 0.3
+    - _ColorStartBand: 1
     - _ColorThemeIndex: 0
     - _ContinuousDissolve: 0
     - _CubeMapAdd: 0
@@ -1224,7 +1227,7 @@ Material:
     - _EnableTouchGlow: 0
     - _EnableUDIMDiscardOptions: 0
     - _EnableVolumeColor: 0
-    - _Exponent: 2.75
+    - _Exponent: 3.5
     - _FFBFStencilHelp0: 0
     - _FFBFStencilHelp1: 0
     - _FXProximityColor: 0
@@ -1565,6 +1568,7 @@ Material:
     - _GlossyReflections: 1
     - _GreenAlphaAdd: 0
     - _GreenColorThemeIndex: 0
+    - _GreenRed: 1
     - _GreenTextureStochastic: 0
     - _GreenTextureUV: 0
     - _HeightMapUV: 0
@@ -1577,7 +1581,7 @@ Material:
     - _HighColorThemeIndex: 0
     - _HighColor_Power: 0.2
     - _HighColor_TexUV: 0
-    - _Hue: 0.6
+    - _Hue: 0
     - _HueAudioStrength: 0.2
     - _HueBand: 1
     - _HueShift: 0.061
@@ -1675,9 +1679,11 @@ Material:
     - _LightingVertexLightingEnabled: 1
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
+    - _Lightness: 0
+    - _LightnessBand: 2
     - _LinesBand: 3
     - _LinesEnabled: 0
-    - _LinesGain: 5
+    - _LinesGain: 2
     - _LockTooltip: 0
     - _MainALHueShiftBand: 0
     - _MainALHueShiftCTIndex: 2
@@ -2938,6 +2944,7 @@ Material:
     - _GradientColor: {r: 0, g: 0.7088356, b: 1, a: 1}
     - _GreenColor: {r: 1, g: 1, b: 1, a: 0}
     - _GreenTexturePan: {r: 0, g: 0, b: 0, a: 0}
+    - _HSV: {r: 1, g: 0.26396665, b: 0, a: 1}
     - _HeightMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _HeightmaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2979,6 +2986,7 @@ Material:
     - _MochieSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _MultilayerMathBlurMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _NormalCorrectOrigin: {r: 0, g: 0.4, b: -0.025, a: 1}
+    - _OKLAB: {r: 0.9056604, g: 0.2264151, b: 0.2264151, a: 1}
     - _PBRMaskScaleTiling: {r: 1, g: 1, b: 0, a: 0}
     - _PPMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _PPRGB: {r: 1, g: 1, b: 1, a: 1}

@@ -229,7 +229,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d42585cf36563f44bb23a67ab21c519, type: 2}
+  - {fileID: 2100000, guid: fff1f228025f40d40988e97d37af3984, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -689,7 +689,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 82268ae1105ada24fa2a095734871fc0, type: 2}
+  - {fileID: 2100000, guid: b660a976592b8c84f9aa9a7888c1e912, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2926,7 +2926,6 @@ GameObject:
   - component: {fileID: 1574391392454009123}
   - component: {fileID: 5220411773477904869}
   - component: {fileID: 5220411773477904868}
-  - component: {fileID: 5220411773477904870}
   m_Layer: 0
   m_Name: ClubAvatar 2
   m_TagString: Untagged
@@ -3112,10 +3111,6 @@ MonoBehaviour:
     name: Standing
   - hash: 1277114970
     name: Crouching
-  - hash: -743667145
-    name: Hoodie On
-  - hash: 107260013
-    name: Hoodie Off
   - hash: -2137589102
     name: JumpAndFall.Short Fall
   - hash: -862280380
@@ -3309,19 +3304,6 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &5220411773477904870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5220411773477904867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &5345249894402096816
 Transform:
   m_ObjectHideFlags: 0
