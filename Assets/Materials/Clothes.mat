@@ -7,19 +7,24 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Face_
+  m_Name: Clothes
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+  m_ShaderKeywords: DISTORT POI_AL_DECAL POI_AUDIOLINK POI_BACKFACE POI_SUBSURFACESCATTERING
+    POI_UDIMDISCARD VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
     _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    OriginalKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-      _STOCHASTICMODE_DELIOT_HEITZ
-    OriginalShader: .poiyomi/Poiyomi 8.1/Poiyomi Toon
-    RenderType: Opaque
+    _UDIMDiscardRow0_0Animated: 1
+    _UDIMDiscardRow0_1Animated: 1
+    _UDIMDiscardRow0_2Animated: 1
+    _UDIMDiscardRow0_3Animated: 1
+    _UDIMDiscardRow1_0Animated: 1
+    _UDIMDiscardRow1_1Animated: 1
+    _UDIMDiscardRow1_2Animated: 1
+    _UDIMDiscardRow1_3Animated: 1
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -49,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BackFaceTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0599963dc5c971d41908fd495445dd69, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BacklightColorTex:
@@ -301,7 +306,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4a37aae60c4ca8b41be6844f99d30d88, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0599963dc5c971d41908fd495445dd69, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -531,8 +536,8 @@ Material:
     - _2nd_ShadeMapUV: 0
     - _ALDecalBandClipMax: 1
     - _ALDecalBandClipMin: 0
-    - _ALDecalBandStep: 0
-    - _ALDecalBaseBoost: 5
+    - _ALDecalBandStep: 32
+    - _ALDecalBaseBoost: 4
     - _ALDecalBlendAlpha: 1
     - _ALDecalBlendType: 0
     - _ALDecalColorMaskUV: 0
@@ -541,21 +546,21 @@ Material:
     - _ALDecalLineWidth: 1
     - _ALDecalLowEmission: 0
     - _ALDecalMidEmission: 0
-    - _ALDecalShapeClip: 0
-    - _ALDecalShapeClipBandWidth: 0.5
-    - _ALDecalShapeClipVolumeWidth: 0.5
+    - _ALDecalShapeClip: 1
+    - _ALDecalShapeClipBandWidth: 0.9
+    - _ALDecalShapeClipVolumeWidth: 0.6
     - _ALDecalTrebleBoost: 1
     - _ALDecalType: 0
     - _ALDecalUV: 0
     - _ALDecalUVMode: 0
-    - _ALDecalVolume: 0.5
+    - _ALDecalVolume: 0.9
     - _ALDecalVolumeClipMax: 1
     - _ALDecalVolumeClipMin: 0
     - _ALDecalVolumeColorHighThemeIndex: 0
     - _ALDecalVolumeColorLowThemeIndex: 0
     - _ALDecalVolumeColorMidThemeIndex: 0
     - _ALDecalVolumeColorSource: 1
-    - _ALDecalVolumeStep: 0
+    - _ALDecalVolumeStep: 20
     - _ALHighEmission: 0
     - _ALLowEmission: 0
     - _ALMidEmission: 0
@@ -671,8 +676,8 @@ Material:
     - _AudioLinkDecalCC1: 0
     - _AudioLinkDecalCC2: 0
     - _AudioLinkDecalCC3: 0
-    - _AudioLinkDissolveAlphaBand: 0
-    - _AudioLinkDissolveDetailBand: 0
+    - _AudioLinkDissolveAlphaBand: 1
+    - _AudioLinkDissolveDetailBand: 2
     - _AudioLinkEmission0CenterOutBand: 0
     - _AudioLinkEmission0CenterOutDuration: 1
     - _AudioLinkEmission0CenterOutSize: 0
@@ -719,7 +724,7 @@ Material:
     - _BackFaceDetailIntensity: 1
     - _BackFaceEmissionLimiter: 1
     - _BackFaceEmissionStrength: 0
-    - _BackFaceEnabled: 0
+    - _BackFaceEnabled: 1
     - _BackFaceHueShift: 0
     - _BackFaceHueShiftEnabled: 0
     - _BackFaceHueShiftSpeed: 0
@@ -830,7 +835,7 @@ Material:
     - _CubeMapReplace: 1
     - _CubeMapUVMode: 1
     - _CubeMapWorldNormalsStrength: 1
-    - _Cull: 2
+    - _Cull: 0
     - _CurvFix: 1
     - _CurvatureU: 0
     - _CurvatureV: 0
@@ -1177,13 +1182,13 @@ Material:
     - _EmissiveScroll_Width1: 10
     - _EmissiveScroll_Width2: 10
     - _EmissiveScroll_Width3: 10
-    - _EnableALDecal: 0
+    - _EnableALDecal: 1
     - _EnableAniso: 0
-    - _EnableAudioLink: 0
+    - _EnableAudioLink: 1
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
-    - _EnableDissolve: 0
-    - _EnableDissolveAudioLink: 0
+    - _EnableDissolve: 1
+    - _EnableDissolveAudioLink: 1
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
     - _EnableEmission: 0
@@ -1202,7 +1207,7 @@ Material:
     - _EnableRim2Lighting: 0
     - _EnableRimLighting: 0
     - _EnableTouchGlow: 0
-    - _EnableUDIMDiscardOptions: 0
+    - _EnableUDIMDiscardOptions: 1
     - _EnableVolumeColor: 0
     - _FFBFStencilHelp0: 0
     - _FFBFStencilHelp1: 0
@@ -2188,7 +2193,7 @@ Material:
     - _StylizedSpecularIgnoreNormal: 0
     - _StylizedSpecularIgnoreShadow: 0
     - _StylizedSpecularStrength: 1
-    - _SubsurfaceScattering: 0
+    - _SubsurfaceScattering: 1
     - _TextEnabled: 0
     - _TextFPSColorThemeIndex: 0
     - _TextFPSEmissionStrength: 0
@@ -2238,7 +2243,7 @@ Material:
     - _UDIMDiscardRow3_1: 0
     - _UDIMDiscardRow3_2: 0
     - _UDIMDiscardRow3_3: 0
-    - _UDIMDiscardUV: 0
+    - _UDIMDiscardUV: 1
     - _UVModLocalPos0: 0
     - _UVModLocalPos1: 1
     - _UVModWorldPos0: 0
@@ -2390,7 +2395,7 @@ Material:
     - g_start_decal_position: 0
     - g_start_deliot: 0
     - g_start_hextile: 0
-    - m_AudioLinkCategory: 0
+    - m_AudioLinkCategory: 1
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0
@@ -2521,12 +2526,12 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 0
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 0
-    - m_start_ALDecalSpectrum: 0
+    - m_specialFXCategory: 1
+    - m_start_ALDecalSpectrum: 1
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
     - m_start_AlphaGlobalMask: 0
@@ -2647,7 +2652,7 @@ Material:
     - m_start_rimLight1Options: 0
     - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
-    - m_start_udimdiscardOptions: 0
+    - m_start_udimdiscardOptions: 1
     - m_start_uvDistortion: 0
     - m_start_uvLocalWorld: 0
     - m_start_uvPanosphere: 0
@@ -2669,8 +2674,8 @@ Material:
     - _ALDecalVolumeColorLow: {r: 0, g: 0, b: 1, a: 1}
     - _ALDecalVolumeColorMid: {r: 0, g: 1, b: 0, a: 1}
     - _ALDecaldCircleDimensions: {r: 0, g: 1, b: 0, a: 1}
-    - _ALUVPosition: {r: 0.5, g: 0.5, b: 1, a: 1}
-    - _ALUVScale: {r: 1, g: 1, b: 1, a: 1}
+    - _ALUVPosition: {r: 0.25, g: 0.1, b: 1, a: 1}
+    - _ALUVScale: {r: 0.5, g: 0.5, b: 0.2, a: 0.1}
     - _ALVolumeColorHigh: {r: 1, g: 0, b: 0, a: 1}
     - _ALVolumeColorLow: {r: 0, g: 0, b: 1, a: 1}
     - _ALVolumeColorMid: {r: 0, g: 1, b: 0, a: 1}
@@ -2757,7 +2762,7 @@ Material:
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClippingMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -2797,7 +2802,7 @@ Material:
     - _DissolveMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveStartPoint: {r: 0, g: -1, b: 0, a: 0}
-    - _DissolveTextureColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveTextureColor: {r: 0.8018868, g: 0.23829654, b: 0.23829654, a: 1}
     - _DissolveToTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexture1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexturePan: {r: 0, g: 0, b: 0, a: 0}
