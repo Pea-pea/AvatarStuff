@@ -8,9 +8,9 @@
         _Hue("Hue: ", range(0,1)) = 1
            
         [Header(Gradient Controls)]
-        _ColorStart("ColorStart: ", Range(0,1)) = 0.5
-        _ColorEnd("ColorEnd: ", float) = 0.5
-        _Exponent("Exponent: ", float) = 1
+        _ColorStart("ColorStart: ", Range(0,1)) = 0.4
+        _ColorEnd("ColorEnd: ", float) = 1
+        _Exponent("Exponent: ", float) = 3
 
         [Header(Lines)]
         [ToggleUI] _LinesEnabled ("Lines Enabled: ", int) = 1
@@ -126,7 +126,7 @@
                 o.uv = v.uv;
 
                 //shift _Hue with audiolink band over time
-                _Hue = (AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ) % 1000000.) / 1000000.; 
+                _Hue += (AudioLinkDecodeDataAsUInt( ALPASS_CHRONOTENSITY  + uint2( 1, _HueBand ) ) % 1000000.) / 1000000.; 
 
                 //shift _Chroma with audiolink band
                 _Chroma -= AudioLinkData( ALPASS_FILTEREDAUDIOLINK  + uint2( 5, _ChromaBand ) );
