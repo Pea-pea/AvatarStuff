@@ -10,6 +10,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blush Material
+    second: {fileID: 2100000, guid: 3b56edf47dd9bde45b88c8beb691659e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Blush_
     second: {fileID: 2100000, guid: 5c625dccdcaf4454caeb49bc6dff73e9, type: 2}
   - first:
@@ -17,6 +22,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Body
     second: {fileID: 2100000, guid: 8c67a6058a7ae0940a1d922b8408c3b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clothes
+    second: {fileID: 2100000, guid: 8cc3eebe25b88ce4bacec3ef287fcf9f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -37,6 +47,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Hair
     second: {fileID: 2100000, guid: b660a976592b8c84f9aa9a7888c1e912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: ca50236f290635e4c808a450c0ad3ee8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -62,6 +77,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Small Shorts
     second: {fileID: 2100000, guid: c36b719e9038cc34d81df9adb41ee0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Undergarmets
+    second: {fileID: 2100000, guid: 3d4b0bfa12ec34241b1a51b24db79c16, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -73,8 +93,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tParent for 'Neck' differs from one
-      found in HumanDescription. 'Upper Chest' was found instead of 'Armature.001'.\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -90,7 +109,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -124,7 +143,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
